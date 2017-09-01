@@ -1,0 +1,14 @@
+\setcounter {tocdepth}{0}
+\setcounter {tocdepth}{0}
+\contentsline {chapter}{\numberline {1}Introduction}{1}
+\contentsline {chapter}{\numberline {2}Cloud Services}{3}
+\contentsline {section}{\numberline {2.1}Amazon}{3}
+\contentsline {section}{\numberline {2.2}Google}{3}
+\contentsline {section}{\numberline {2.3}Microsoft}{3}
+\contentsline {chapter}{\numberline {3}Implementation of Sensor Network}{5}
+\contentsline {chapter}{\numberline {4}Remote Control of Sensor Network}{7}
+\contentsline {chapter}{\numberline {5}Results}{9}
+\contentsline {chapter}{\numberline {6}Discussion}{11}
+\contentsline {chapter}{\numberline {7}Conclusion}{13}
+\contentsline {chapter}{\numberline {8}Future work}{15}
+\contentsline {chapter}{Appendices}{17}
