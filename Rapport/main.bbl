@@ -1,0 +1,46 @@
+\begin{thebibliography}{1}
+
+\bibitem{DillonWuChang}
+T.~Dillon; C. Wu;~E. Chang.
+\newblock Cloud computing: Issues and challenges.
+\newblock In {\em 2010 24th IEEE International Conference on Advanced
+  Information Networking and Applications}, pages 27--33, April 2010.
+
+\bibitem{BhardwajJain}
+S.~Bhardwaj; L. Jain;~S. Jain.
+\newblock Cloud computing: A study of infrastructure as a service (iaas).
+\newblock pages 60--63, 2010.
+
+\bibitem{NIST}
+P.~Mell;~T. Grace.
+\newblock The nist definition of cloud computing.
+\newblock 2011.
+
+\bibitem{GoyalSumit}
+Goyal; Sumit.
+\newblock Public vs private vs hybrid vs community - cloud computing: A
+  critical review.
+\newblock {\em International Journal of Computer Network and Information
+  Security}, 6(3):20--29, 2014.
+\newblock Copyright - Copyright Modern Education and Computer Science Press Feb
+  2014; Last updated - 2014-11-23.
+
+\bibitem{IBM}
+Ibm cloud computing.
+
+\bibitem{Ramgovind}
+S.~Ramgovind; M. M. Eloff;~E. Smith.
+\newblock The management of security in cloud computing.
+\newblock In {\em 2010 Information Security for South Africa}, pages 1--7,
+  2010.
+
+\bibitem{Azure}
+Microsoft azure.
+
+\bibitem{Amazon}
+Amazon web services.
+
+\bibitem{stackify}
+Azure vs aws comparison.
+
+\end{thebibliography}

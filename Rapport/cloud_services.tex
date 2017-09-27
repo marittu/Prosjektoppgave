@@ -1,7 +1,59 @@
-\chapter{Cloud Services}
+\chapter{Cloud Computing}
+Cloud computing is a way of sharing computer resources. It provides businesses and other users with the ability to minimize infrastructure costs and maintenance, without reducing performance. Cloud computing provides on-demand computing resources over the Internet, and users can save money with the pay-for-use payment option.
 
-\section{Amazon}
+A widely used definition of Cloud Computing was provided by U.S. NIST (National Institute of Standards and Technology)\cite{DillonWuChang},\cite{BhardwajJain}: \textit{Cloud computing is a model for enabling ubiquitous, convenient, on-demand network access to a shared pool of configurable computing resources (e.g., networks, servers, storage, applications, and services) that can be rapidly provisioned and released with minimal management effort or service provider interaction.} \cite{NIST} The definition further states that there are five essential characteristics possessed by Clouds, namely
 
-\section{Google}
+\begin{itemize}
+  \item On-demand self-service. A consumer can unilaterally provision computing capabilities, such as server time and network storage, as needed automatically without requiring human interaction with each service provider.
+  \item Broad network access. Capabilities are available over the network and accessed  through standard mechanisms that promote use by heterogeneous thin or thick client platforms (e.g., mobile phones, tablets, laptops, and workstations).
+  \item Resource pooling. The provider's computing resources are pooled to serve multiple consumers using a multi-tenant model, with different physical and virtual resources dynamically assigned and reassigned according to consumer demand. There is a sense of location independence in that the customer generally has no control or knowledge over the exact location of the provided resources but may be able to specify location at a higher level of abstraction (e.g., country, state, or data center). Examples of resources include storage, processing, memory, and network bandwidth
+  \item Rapid elasticity. Capabilities can be elastically provisioned and released, in some cases automatically, to scale rapidly outward and inward commensurate with demand. To the consumer, the capabilities available for provisioning often appear to be unlimited and can be appropriated in any quantity at any time.
+  \item Measured service. Cloud systems automatically control and optimize resource use by leveraging a metering capability at some level of abstraction appropriate to the type of service (e.g., storage, processing, bandwidth, and active user accounts). Resource usage can be monitored, controlled, and reported, providing transparency for both the provider and consumer of the utilized service.
+\end{itemize}
 
-\section{Microsoft}
+
+\section{Service Model}
+The service model for Cloud Computing is differentiated into three distinct models, namely Software as a Service, Platform as a Service and Infrastructure as a Service.  
+
+\subsection{Software as a Service}
+Software as a Service (SaaS) is the highest level of abstraction, and provides on-demand access to any application. SaaS provides typically host and manages applications that are directly usable for end-consumers. The user does not have any control or the need to manage the underlying settings or infrastructure. Cloud service providers offer a set of software application, running on platform and infrastructure that the user is unaware of and does not own. The user pays only for what he or she uses and does not need to purchase anything. With SaaS the users does not need to worry about development or programming of the software, as this is already taken care of by the Cloud provider. 
+
+Another definition of SaaS is made by \cite{DillonWuChang}, and states that \textit{CLoud consumers release their applications on a hosting environment, which can be accessed through networks from various clients (e.g. web browsers, PDA, etc.) by application users.} This definition implies that the Cloud consumers control the software that they deploy to other users, however, they do not have control over the Cloud infrastructure. 
+
+A very commonly used application that is SaaS, are the Google Apps, such as Gmail. 
+
+\subsection{Platform as a Service}
+By using Platform as a Service (PaaS), the user has more freedom when it comes to developing applications. The user still does not have control over the underlying cloud infrastructure, such as network, servers, operating systems or storage, but can use a development platform to create applications. The Cloud provider support certain programming languages, services, tool and libraries that the user can use to to deploy applications. The benefit of using PaaS is that \textit{It facilitates development and deployment of applications without the cost and complexity of buying and managing the underlying infrastructure, providing all of the facilities required to support the complete life cycle of building and delivering web applications and services entirely available from the Internet} \cite{BhardwajJain}.
+
+
+A well established PaaS is Google AppEngine, where developers write in Python or Java.  
+
+\subsection{Infrastructure as a Service}
+%IaaS cloud providers sell fixed bundles of CPU, memory, and I/O resources packaged as server-equivalent virtual machines
+Infrastructure as a Service (IaaS) gives the user the most freedom when it comes to developing applications. It is a form if hosting, where the IaaS provider takes care of the hardware and administrative services needed to store applications and a platform for running applications \cite{BhardwajJain}. The Cloud provider takes care of managing and controlling the underlying infrastructure, however, the user has control over operating systems, storage, possibly network etc.\cite{NIST} One of the benefits if IaaS, is dynamic scaling. Costumers only pay for what they use, thus potentially saving a great deal of money by not having to invest in hardware. 
+
+IaaS is usually divided into three parts, namely an environment for running virtual machines, storage through data centers, and compute power \cite{BhardwajJain}. The virtual machine is built on top if the two others. 
+
+Amazon Web Services Elastic Compute Cloud (EC2) is an example of IaaS. Amazon lets their customers set up and configure virtual servers via a web-based interface. 
+
+\section{Deployment Model}
+There are a few different deployment models for cloud computing. The three main ones, which will be discussed here, are public clouds, private clouds and hybrid clouds.
+
+\subsection{Public cloud}
+Public clouds are owned by organizations selling cloud services to the public. Public clouds are hosted on the Internet, and resources are offered as a service in a pay-per-usage model. Users share the same hardware, storage and network infrastructure. 
+
+The main advantages of public clouds are continuous data availability; automatic scalability on demand; limiting hardware and software expenses, as you only pay for the services you use; no maintenance, as this is done by the provider \cite{GoyalSumit}. On the other hand, customers may be unaware of where and how the data is stored, as well as how secure the data is. There is also the issue of privacy, which will be discussed later on.
+
+\subsection{Private cloud}
+Private clouds are usually contained within and operated by a single organization. It can be managed by the organization itself, or by a third party. The cloud can only be accessed by the organization, thus providing a more secure infrastructure \cite{GoyalSumit}. A private cloud may be cost saving for the company if it utilizes unused data capacity in the organizations data center. Private clouds will usually provide the organization with greater control over the resources and infrastructure, as well as providing the organization with the opportunity to customize their layout and infrastructure of the cloud to their needs \cite{IBM}. 
+Another reason to utilize private clouds is the data transfer costs between local IT infrastructure to a public cloud \cite{DillonWuChang}.
+
+The main disadvantages of a private cloud is that when it is compared to public clouds, the costs are higher. The costs of a private cloud are usually composed by the need of purchasing equipment, software, and staffing to maintain the cloud \cite{GoyalSumit}. Another critical disadvantage is the lack of interaction with the \enquote{outside-world}. This is where the hybrid cloud comes into play.
+
+\subsection{Hybrid cloud}
+A hybrid cloud is a combination of a private and public cloud. The users has a private cloud foundation \cite{IBM} where one would store information sensitive to the organization. However, if one were in need of more storage space or needed to export applications etc. to the public, they would use a public cloud in addition. The private cloud is linked t one or more external cloud services \cite{Ramgovind}, however it is provisioned as a singled unit. There would be no use in having just a private cloud isolated from the rest of the organization's IT resources. 
+
+An important factor for choosing hybrid clouds is that it provides the user with more secure control of the data and applications, while allowing third-party users to access information over the Internet \cite{Ramgovind}. The organization can still keep sensitive assets private while at the same time take advantage of resources provided in the public cloud \cite{Azure}, like accommodating fluctuations in traffic.
+
+\section{Security in the cloud}
+

@@ -1,14 +1,35 @@
-\setcounter {tocdepth}{0}
-\setcounter {tocdepth}{0}
-\contentsline {chapter}{\numberline {1}Introduction}{1}
-\contentsline {chapter}{\numberline {2}Cloud Services}{3}
-\contentsline {section}{\numberline {2.1}Amazon}{3}
-\contentsline {section}{\numberline {2.2}Google}{3}
-\contentsline {section}{\numberline {2.3}Microsoft}{3}
-\contentsline {chapter}{\numberline {3}Implementation of Sensor Network}{5}
-\contentsline {chapter}{\numberline {4}Remote Control of Sensor Network}{7}
-\contentsline {chapter}{\numberline {5}Results}{9}
-\contentsline {chapter}{\numberline {6}Discussion}{11}
-\contentsline {chapter}{\numberline {7}Conclusion}{13}
-\contentsline {chapter}{\numberline {8}Future work}{15}
-\contentsline {chapter}{Appendices}{17}
+\contentsline {chapter}{Abstract}{i}
+\contentsline {chapter}{Preface}{ii}
+\contentsline {chapter}{\numberline {1}Introduction}{2}
+\contentsline {chapter}{\numberline {2}Cloud Computing}{3}
+\contentsline {section}{\numberline {2.1}Service Model}{4}
+\contentsline {subsection}{\numberline {2.1.1}Software as a Service}{4}
+\contentsline {subsection}{\numberline {2.1.2}Platform as a Service}{5}
+\contentsline {subsection}{\numberline {2.1.3}Infrastructure as a Service}{5}
+\contentsline {section}{\numberline {2.2}Deployment Model}{6}
+\contentsline {subsection}{\numberline {2.2.1}Public cloud}{6}
+\contentsline {subsection}{\numberline {2.2.2}Private cloud}{6}
+\contentsline {subsection}{\numberline {2.2.3}Hybrid cloud}{7}
+\contentsline {section}{\numberline {2.3}Security in the cloud}{7}
+\contentsline {chapter}{\numberline {3}Cloud Service Providers}{8}
+\contentsline {section}{\numberline {3.1}Amazon Web Services}{8}
+\contentsline {section}{\numberline {3.2}Google}{9}
+\contentsline {section}{\numberline {3.3}Microsoft Azure}{9}
+\contentsline {section}{\numberline {3.4}IBM}{9}
+\contentsline {section}{\numberline {3.5}Firebase}{9}
+\contentsline {section}{\numberline {3.6}OpenStack}{9}
+\contentsline {section}{\numberline {3.7}Comparison}{9}
+\contentsline {subsection}{\numberline {3.7.1}Azure vs. AWS}{9}
+\contentsline {subsubsection}{IaaS}{10}
+\contentsline {subsubsection}{PaaS}{10}
+\contentsline {subsubsection}{Hybrid Cloud}{10}
+\contentsline {subsubsection}{Open Source Developers}{10}
+\contentsline {subsubsection}{Features}{11}
+\contentsline {chapter}{\numberline {4}Implementation of Sensor Network}{12}
+\contentsline {chapter}{\numberline {5}Remote Control of Sensor Network}{13}
+\contentsline {chapter}{\numberline {6}Results}{14}
+\contentsline {chapter}{\numberline {7}Discussion}{15}
+\contentsline {chapter}{\numberline {8}Conclusion}{16}
+\contentsline {chapter}{\numberline {9}Future work}{17}
+\contentsline {chapter}{Appendices}{18}
+\contentsline {chapter}{Bibliography}{20}
