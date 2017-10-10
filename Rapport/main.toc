@@ -13,23 +13,33 @@
 \contentsline {section}{\numberline {2.3}Security in the cloud}{7}
 \contentsline {chapter}{\numberline {3}Cloud Service Providers}{8}
 \contentsline {section}{\numberline {3.1}Amazon Web Services}{8}
-\contentsline {section}{\numberline {3.2}Google}{9}
-\contentsline {section}{\numberline {3.3}Microsoft Azure}{9}
-\contentsline {section}{\numberline {3.4}IBM}{9}
-\contentsline {section}{\numberline {3.5}Firebase}{9}
-\contentsline {section}{\numberline {3.6}OpenStack}{9}
-\contentsline {section}{\numberline {3.7}Comparison}{9}
-\contentsline {subsection}{\numberline {3.7.1}Azure vs. AWS}{9}
-\contentsline {subsubsection}{IaaS}{10}
-\contentsline {subsubsection}{PaaS}{10}
-\contentsline {subsubsection}{Hybrid Cloud}{10}
-\contentsline {subsubsection}{Open Source Developers}{10}
-\contentsline {subsubsection}{Features}{11}
-\contentsline {chapter}{\numberline {4}Implementation of Sensor Network}{12}
-\contentsline {chapter}{\numberline {5}Remote Control of Sensor Network}{13}
-\contentsline {chapter}{\numberline {6}Results}{14}
-\contentsline {chapter}{\numberline {7}Discussion}{15}
-\contentsline {chapter}{\numberline {8}Conclusion}{16}
-\contentsline {chapter}{\numberline {9}Future work}{17}
-\contentsline {chapter}{Appendices}{18}
-\contentsline {chapter}{Bibliography}{20}
+\contentsline {section}{\numberline {3.2}Microsoft Azure}{9}
+\contentsline {section}{\numberline {3.3}IBM}{9}
+\contentsline {section}{\numberline {3.4}Google Cloud Platform}{9}
+\contentsline {section}{\numberline {3.5}Salesforce.com}{10}
+\contentsline {section}{\numberline {3.6}OpenStack}{10}
+\contentsline {section}{\numberline {3.7}Comparison}{10}
+\contentsline {subsection}{\numberline {3.7.1}Azure vs. AWS}{10}
+\contentsline {subsection}{\numberline {3.7.2}IaaS}{11}
+\contentsline {subsection}{\numberline {3.7.3}PaaS}{11}
+\contentsline {subsection}{\numberline {3.7.4}Hybrid Cloud}{11}
+\contentsline {subsection}{\numberline {3.7.5}Open Source Developers}{11}
+\contentsline {subsection}{\numberline {3.7.6}Features}{12}
+\contentsline {section}{\numberline {3.8}Feature Comparison}{12}
+\contentsline {subsection}{\numberline {3.8.1}Virtual Private Cloud (VPC)}{12}
+\contentsline {subsection}{\numberline {3.8.2}Database}{12}
+\contentsline {subsubsection}{Amazon}{12}
+\contentsline {subsubsection}{Microsoft Azure}{13}
+\contentsline {subsubsection}{Google Cloud Platform}{14}
+\contentsline {subsubsection}{IBM Bluemix}{15}
+\contentsline {subsection}{\numberline {3.8.3}Web Interface}{17}
+\contentsline {subsection}{\numberline {3.8.4}Price}{17}
+\contentsline {subsection}{\numberline {3.8.5}Analytics}{17}
+\contentsline {chapter}{\numberline {4}Implementation of Sensor Network}{18}
+\contentsline {chapter}{\numberline {5}Remote Control of Sensor Network}{19}
+\contentsline {chapter}{\numberline {6}Results}{20}
+\contentsline {chapter}{\numberline {7}Discussion}{21}
+\contentsline {chapter}{\numberline {8}Conclusion}{22}
+\contentsline {chapter}{\numberline {9}Future work}{23}
+\contentsline {chapter}{Appendices}{24}
+\contentsline {chapter}{Bibliography}{26}
