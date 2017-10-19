@@ -17,29 +17,46 @@
 \contentsline {section}{\numberline {3.3}IBM}{9}
 \contentsline {section}{\numberline {3.4}Google Cloud Platform}{9}
 \contentsline {section}{\numberline {3.5}Salesforce.com}{10}
-\contentsline {section}{\numberline {3.6}OpenStack}{10}
-\contentsline {section}{\numberline {3.7}Comparison}{10}
-\contentsline {subsection}{\numberline {3.7.1}Azure vs. AWS}{10}
-\contentsline {subsection}{\numberline {3.7.2}IaaS}{11}
-\contentsline {subsection}{\numberline {3.7.3}PaaS}{11}
-\contentsline {subsection}{\numberline {3.7.4}Hybrid Cloud}{11}
-\contentsline {subsection}{\numberline {3.7.5}Open Source Developers}{11}
-\contentsline {subsection}{\numberline {3.7.6}Features}{12}
-\contentsline {section}{\numberline {3.8}Feature Comparison}{12}
-\contentsline {subsection}{\numberline {3.8.1}Virtual Private Cloud (VPC)}{12}
-\contentsline {subsection}{\numberline {3.8.2}Database}{12}
-\contentsline {subsubsection}{Amazon}{12}
+\contentsline {section}{\numberline {3.6}Oracle}{10}
+\contentsline {section}{\numberline {3.7}Rackspace}{10}
+\contentsline {section}{\numberline {3.8}Comparison}{11}
+\contentsline {subsection}{\numberline {3.8.1}Azure vs. AWS}{11}
+\contentsline {subsection}{\numberline {3.8.2}IaaS}{11}
+\contentsline {subsection}{\numberline {3.8.3}PaaS}{11}
+\contentsline {subsection}{\numberline {3.8.4}Hybrid Cloud}{11}
+\contentsline {subsection}{\numberline {3.8.5}Open Source Developers}{12}
+\contentsline {subsection}{\numberline {3.8.6}Features}{12}
+\contentsline {section}{\numberline {3.9}Feature Comparison}{12}
+\contentsline {subsection}{\numberline {3.9.1}Virtual Private Cloud and Privacy}{12}
+\contentsline {subsubsection}{Amazon Web Services}{12}
 \contentsline {subsubsection}{Microsoft Azure}{13}
 \contentsline {subsubsection}{Google Cloud Platform}{14}
 \contentsline {subsubsection}{IBM Bluemix}{15}
-\contentsline {subsection}{\numberline {3.8.3}Web Interface}{17}
-\contentsline {subsection}{\numberline {3.8.4}Price}{17}
-\contentsline {subsection}{\numberline {3.8.5}Analytics}{17}
-\contentsline {chapter}{\numberline {4}Implementation of Sensor Network}{18}
-\contentsline {chapter}{\numberline {5}Remote Control of Sensor Network}{19}
-\contentsline {chapter}{\numberline {6}Results}{20}
-\contentsline {chapter}{\numberline {7}Discussion}{21}
-\contentsline {chapter}{\numberline {8}Conclusion}{22}
-\contentsline {chapter}{\numberline {9}Future work}{23}
-\contentsline {chapter}{Appendices}{24}
-\contentsline {chapter}{Bibliography}{26}
+\contentsline {subsubsection}{Oracle}{15}
+\contentsline {subsubsection}{Rackspace}{16}
+\contentsline {subsection}{\numberline {3.9.2}Database}{16}
+\contentsline {subsubsection}{Amazon Web Services}{16}
+\contentsline {subsubsection}{Microsoft Azure}{17}
+\contentsline {subsubsection}{Google Cloud Platform}{18}
+\contentsline {subsubsection}{IBM Bluemix}{19}
+\contentsline {subsubsection}{Oracle}{21}
+\contentsline {subsubsection}{Rackspace}{21}
+\contentsline {subsection}{\numberline {3.9.3}IoT}{22}
+\contentsline {subsubsection}{Amazon Web Services}{22}
+\contentsline {subsubsection}{Microsoft Azure}{23}
+\contentsline {subsubsection}{Google Cloud Platform}{23}
+\contentsline {subsubsection}{Google Firebase}{23}
+\contentsline {subsubsection}{IBM Bluemix}{24}
+\contentsline {subsubsection}{Oracle}{24}
+\contentsline {subsubsection}{Rackspace}{24}
+\contentsline {subsection}{\numberline {3.9.4}Web Development}{24}
+\contentsline {section}{\numberline {3.10}Comparison Conclusion}{24}
+\contentsline {chapter}{\numberline {4}Implementation of Sensor Network}{25}
+\contentsline {chapter}{\numberline {5}Setting up Cloud Environment}{26}
+\contentsline {chapter}{\numberline {6}Remote Control of Sensor Network}{27}
+\contentsline {chapter}{\numberline {7}Results}{28}
+\contentsline {chapter}{\numberline {8}Discussion}{29}
+\contentsline {chapter}{\numberline {9}Conclusion}{30}
+\contentsline {chapter}{\numberline {10}Future work}{31}
+\contentsline {chapter}{Appendices}{32}
+\contentsline {chapter}{Bibliography}{34}

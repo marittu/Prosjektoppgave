@@ -90,6 +90,28 @@ Cloud Identity and Access Management: Fine-grained access control and visibility
 
 Cloud Identity-Aware Proxy: controls access to cloud applications running on GCP. Verifies user's identity and determining if user should be allowed to access the application. Secure web access in less time than it takes to implement a VPN. Improve security with Security Key Enforcement. 
 
+Cloud Security Scanner: web security scanner for common vulnerabilities in Google App Engine applications. Automatically scan and detect four common vulnerabilities including cross-site-scripting, Flash injection, mixed content (HTTP in HTTPS), and outdated/insecure libraries. 
+
+Google Security Model: End-to-end process focused on keeping customers safe on Google applications. Physical security in data centers. Server and software stack security. Advanced Encryption Standard (AES-256)  
+
+\subsubsection{IBM Bluemix}
+
+Private cloud: Delivers private cloud infrastructure with the simplicity of a public cloud. Provides the pathway forward to hybrid cloud. Powered by OpenStack and can be delivered through IBM Cloud data centers around the world or on dedicated IBM Cloud infrastructure or locally in customers data center of choice. Fast, scalable, takes advantage of a cloud powered by OpenStack to support hybrid strategy. 
+
+Virtual Private Network (VPN): Provides secure IP-layer connectivity between on-premise data center and IBM Bluemix cloud. Leverages IPsec protocol suite for protecting IP communication between endpoints residing on private subnets. IPsec-compatible VPN gateway is required in customers on-premise data center for establishing secure connectivity with IBM VPN service. 
+
+Identity and access management: help safeguard valuable data and applications with context-based access control, security policy enforcement and business-driven identity governance. Help: safeguard mobile, cloud and social access; prevent advanced insider threats; simplify cloud integrations and identity silos; deliver actionable identity intelligence; administer, enforce and monitor mainframe security. 
+
+\subsubsection{Oracle}
+Infrastructure Virtual Cloud Network: customizable and private network in Oracle Cloud Infrastructure. Provides complete control over network environment, including assigning private IP address space, creating subnets, rout tables and configuring stateful firewalls. Can have multiple VCN, providing grouping and isolation of related resources. 
+
+Security Monitoring and Analytics: enables rapid detection, investigation and remediation of the broadest range of security threats across on-premises and cloud IT assets. 
+
+\subsubsection{Rackspace}
+Private Cloud: Agility, scalability and efficiency of public cloud, with greater levels of control and security of a single-tenant, dedicated environment. Can be hosted on-site at customers data center or at a service provider's data center. Delivers features faster by providing your users with on-demand, self-service access to infrastructure. Get enhanced security if dedicated compute, storage and networking components to best suit needs. Gain performance advantages over public cloud, with dedicated resources. Experts monitoring and maintaining health of private cloud 24x7x365. Connect dedicated Rackspace environment to public clouds like AWS, Azure or Rackspace cloud. 
+
+Privacy and Data Protection: protect sensitive business data and help meet compliance requirements related to data storage and protection. Helps asses risk, create custom policies to encrypt and restrict access to sensitive data. Provides encryption on top of existing applications and workflows, resulting in minimal impact to users. Allow users access to only data they need with granular access policies.   
+
 \subsection{Database}
 
 \subsubsection{Amazon Web Services}
@@ -129,6 +151,7 @@ Cloud Bigtable: NoSQL Big Data database service. Powers Google services like Map
 Cloud Spanner: Horizontally scalable, strongly consistent, relational database service. First fully managed relational database to offer strong consistency and horizontal scalability for OLTP applications. Scales horizontally to hundreds or thousands of servers to handle the biggest transactional workloads. Milliseconds latency and transactional consistency up to 99.999 \% availability. Focus on application, not infrastructure, fully managed, synchronous replication. Encryption by default in transit and at rest. Multi-language support. Suitable for retailers, manufacturers and distributors. Performance and scalability of NoSQL, but can execute SQL. 
 
 Cloud Datastore: highly scalable NoSQL database. Automatically handles sharding and replication - highly available and durable database that scales automatically. Schemaless database, possible to make changes to underlying data structure. Provides a powerful query engine that allows you to search for data across multiple properties and sort as needed. Suitable for product catalogs that provide real-time inventory, user profiles based on past activities and preferences, ACID based transaction (transferring funds from bank accounts).
+
 
 \subsubsection{IBM Bluemix}
 Cloudant NoSQL DB: fully managed NoSQL JSON data layer. Document-oriented database. Stores data as documents in JSON format. Compatible with Couch DB and accessible through HTTP interface. Documents can be stored, deleted or retrieved individually or in bulk. Automatic provisioning, management, and scalability of the data store. Easy to conduct advanced analytics on JSON data with dashDB. Global availability. 
@@ -173,16 +196,48 @@ Run on either dedicated hardware or cloud servers. Rackspaces' experts can handl
 
 MySQL Databases: Support for customers include installation, configuration assistance, troubleshooting assistance, database backup agent, advice and consultation. 
 
-Microsoft SQL Databases:
-
-Oracle Databases: 
-
 DBAdministartor: Rackspace handles basic activities, like standard maintenance and troubleshooting associated with keeping the database platform performing as designed.
 
 DBArchitect: In addition to DBA services, advanced design, architecture and planning services are available to help ensure databases are at peak performance and efficiency. 
 
-\subsection{Web Interface}
 
-\subsection{Price}
+\subsection{IoT}
 
-\subsection{Analytics}
+\subsubsection{Amazon Web Services}
+AWS IoT: Provides secure, bi-directional communication between Internet-connected thing, such as sensors, actuators, embedded devices, or smart appliances, and the AWS cloud. Collect telemetry data from multiple devices and store and analyze the data. Create applications that enable your users to control these devices from their phones or tablets. 
+
+Device gateway: secure and efficient communication between devices and AWS IoT.
+Message broker: Secure messaging between \enquote{things} and AWS IoT applications.
+Rules engine: message processing and integration with other AWS services. 
+Security and Identity service: Keep credentials safe in order to securely send data to message broker. 
+Thing registry: Organizes resources associated with each thing. 
+Thing shadow: JSON document used to store and retrieve current state information for a thing.
+Thing Shadow service: provides persistent representation of things in the AWS cloud. 
+
+Integrates directly with S3 (scalable storage), DynamoDB, Kinesis (realtime processing of streaming dat at massive scale), Lambda (runs code on virtual servers from EC2 in response to events), Simple Notification Service (send or receive notifications), Simple Queue Service (stores data in a queue to be retrieved by applications). 
+
+\subsubsection{Microsoft Azure}
+IoT Hub: Bi-directional communication with billions of IoT devices. Device-to-cloud telemetry data to understand state of device and assets. Reliably send commands and notifications to connected devices using cloud-to-device messages. Authenticate per device for security-enhanced IoT solutions. 
+
+IoT Edge: Make hybrid cloud and edge IoT solutions. Devices can act locally based on the data they generate, also take advantage of the clout to configure, deploy and manage them securely and at scale. Focus on advanced analytics, machine learning and artificial intelligence in the cloud. Process data locally and selectively send to cloud to reduce cost. 
+
+\subsubsection{Google Cloud Platform}
+Cloud IoT core: Fully managed service to easily and securely connect, manage and ingest data from globally dispersed devices. In combination with other services on Google Cloud IoT platform, provides a complete solution form collecting, processing, analyzing and visualizing IoT data in real time to support improved operational efficiency. Establish two-way communication.
+
+\subsubsection{Google Firebase}
+Firebase is Google's mobile application development platform. It provides functions like analytics, databases, messaging and crash reports. Built on Google infrastructure and scales automatically. Multiple Firebase products work together by sharing data. Utilizes products like realtime database for storing and syncing app data in milliseconds, CLoud Firestore for storing and syncing app data at global scale, Cloud Functions for running backend code without managing servers, hosting for delivering web app assets with speed and security, performance monitoring, crash reporting, authentication, cloud storage. Firebase projects are backed by Google Cloud Platform, making it easy to scale apps to billions of users. 
+
+\subsubsection{IBM Bluemix}
+IoT for Electronics: Integrated end-to-end solution enables your apps to communicate with, control, analyze, and update connected electronics. Analyze operational machine data instantly to help identify valuable insight related to user behavior and operations in the field. 
+
+\subsubsection{Oracle}
+Internet of Things Cloud Service: managed PaaS cloud-based offering that helps you make critical business decisions and strategies by allowing you to connect your devices to the cloud, analyze data from those devices in real time, and integrate your data with enterprise applications, web services, or other Oracle Cloud Services.  
+
+\subsubsection{Rackspace}
+Rackspace does not provide any solutions or products for developing an Internet of Things related service. 
+
+
+\subsection{Web Development}
+
+
+\section{Comparison Conclusion}
