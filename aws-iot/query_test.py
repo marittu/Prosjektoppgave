@@ -14,15 +14,18 @@ class DecimalEncoder(json.JSONEncoder):
                 return int(o)
         return super(DecimalEncoder, self).default(o)
 
-dynamodb = boto3.resource('dynamodb', region_name='eu-central-1', endpoint_url="http://localhost:8000")
+dynamodb = boto3.resource('dynamodb', region_name='eu-central-1')
 
-table = dynamodb.Table('test2')
+table = dynamodb.Table('SensorData')
 
-print("Queries from Raspberry Pi 1")
+print("Queries from 44804")
 
 response = table.query(
-    KeyConditionExpression=Key('Device').eq('Raspberry Pi 1')
+    KeyConditionExpression=Key('Device').eq('44804')
 )
 
 for i in response['Items']:
-    print(i['Device'], ":", i['Temperature'])
+    print(i['Device'],": Time: ",i['payload']['Time'] ,"Pressure: ", i['payload']['Pressure'], 
+        "Temperature: ", i['payload']['Temperature'] , "Sound Level: ", i['payload']['Sound'],
+        "Ambient Light: ", i['payload']['Ambient Light'], "UV Index: ", i['payload']['UV Index'], 
+        "Humidity: ", i['payload']['Humidity'])

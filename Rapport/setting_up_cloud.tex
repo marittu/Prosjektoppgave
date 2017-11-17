@@ -1,13 +1,15 @@
 \chapter{Setting up Cloud Environment}
 
 AWS iot
-Certification and keys
-Python - AWSIoTPythinSDK - boto
-PubSub - topics
+Certification and keys IAM 
+Python - AWSIoTPythinSDK 
 NoSQL DB
-Rule - insert into DB - key for device and timestamp(?)
+Rule - insert into DB - key for device and timestamp
 Mqtt
 Arcitecture illustartion - AWS IoT --> message queue --> rules --> db --> web interface --> message to Pi
 Elastic Beanstalk for Web applications - login for each user - one device per user - master to see all data
 Elastic Beanstalk uses EC2 and S3
-IAM role
+Elastic Beanstalk, Django Python
+Might be easier to use Amazon RDB, but chose DB because easy to use with IoT
+Python because Raspberry Pi and consistency throughout the project 
+Django admin to create superuser and other users
