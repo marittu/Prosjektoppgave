@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Prosjektoppgave</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+  <script type="text/javascript">
+    google.load("visualization", "1", {packages:["corechart"]});
+  </script>
+
+  <style>
+    .grid-container {
+      display: grid;
+      grid-template-columns: auto auto;
+    }
+    
+  </style>
+</head>
+<body>
+<h1 align="center">Sensor data from each device</h1>
+
+<div class="grid-container">
+  <div id="div1">
+    {{44804.as_html}}
+  </div>
+  <div id='div2'>
+    <h2> Refresh page after a button is pressed </h2>
+    <button id="on1" type="button" class="btn btn-primary btn-md">Turn on light</button>
+    <button id="off1" type="button" class="btn btn-primary btn-md">Turn off light</button>
+
+    <p> Current status of RGB LEDs: </p>
+    
+    {{btn44804}}
+   
+  </div>
+  <div id="div3">
+    {{45452.as_html}}
+  </div>
+  <div id='div4'>
+    <button id="on2" type="button" class="btn btn-primary btn-md">Turn on light</button>
+    <button id="off2" type="button" class="btn btn-primary btn-md">Turn off light</button>
+
+    <p> Current status of RGB LEDs: </p>
+    
+    {{btn45452}}
+   
+  </div>
+  <div id='div5'>
+    {{45311.as_html}}
+  </div>
+  <div id='div6'>
+    <button id="on3" type="button" class="btn btn-primary btn-md">Turn on light</button>
+    <button id="off3" type="button" class="btn btn-primary btn-md">Turn off light</button>
+
+    <p> Current status of RGB LEDs: </p> 
+    {{btn45311}}
+    
+ </div>
+</div>
+</body>
+</html>
+<script type='text/javascript' src='http://code.jquery.com/jquery-1.8.2.js'></script>
+<script type="text/javascript">
+
+$(document).ready(function(){
+   $("#on1").click(function() {
+       $.ajax({
+           type:"POST",
+           url:"",
+           data: {device: '44804', status: 'On'},
+       });       
+   });
+
+   $("#off1").click(function() {
+       $.ajax({
+           type:"POST",
+           url:"",
+           data: {device: '44804', status: 'Off'},
+       });
+   });
+
+   $("#on2").click(function() {
+       $.ajax({
+           type:"POST",
+           url:"",
+           data: {device: '45452', status: 'On'},
+       });
+   });
+
+   $("#off2").click(function() {
+       $.ajax({
+           type:"POST",
+           url:"",
+           data: {device: '45452', status: 'Off'},
+       });
+   });
+
+   $("#on3").click(function() {
+       $.ajax({
+           type:"POST",
+           url:"",
+           data: {device: '45311', status: 'On'},
+       });
+   });
+
+   $("#off3").click(function() {
+       $.ajax({
+           type:"POST",
+           url:"",
+           data: {device: '45311', status: 'Off'},
+       });
+   });
+});
+</script>  

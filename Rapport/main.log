@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.9.1)  18 OCT 2017 12:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.12.10)  13 DEC 2017 15:30
 entering extended mode
 **./main.tex
 (main.tex
 LaTeX2e <2017-04-15>
-Babel <3.10> and hyphenation patterns for 75 language(s) loaded.
+Babel <3.15> and hyphenation patterns for 75 language(s) loaded.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\report.cls"
 Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\size10.clo"
@@ -340,7 +340,7 @@ Now handling font encoding U ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\fncychap\fncychap.sty"
+(C:\Users\Marit\AppData\Roaming\MiKTeX\2.9\tex\latex\fncychap\fncychap.sty
 Package: fncychap 2007/07/30 v1.34 LaTeX package (Revised chapters)
 \RW=\skip43
 \mylen=\skip44
@@ -350,21 +350,50 @@ Package: fncychap 2007/07/30 v1.34 LaTeX package (Revised chapters)
 \pyy=\skip48
 \pxx=\skip49
 )
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty"
+Package: babel 2017/11/03 3.15 The Babel package
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\switch.def"
+File: switch.def 2017/11/03 3.15 Babel switching mechanism
+)
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Users\Marit\AppData\Roaming\MiKTeX\2.9\tex\latex\arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\babel-english\english.ldf"
+Language: english 2017/06/06 v3.3r English support from the babel system
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def"
+File: babel.def 2017/11/03 3.15 Babel common definitions
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\switch.def"
+File: switch.def 2017/11/03 3.15 Babel switching mechanism
+)
+\babel@savecnt=\count88
+\U@D=\dimen103
+)
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\ltxmisc\parskip.sty"
 Package: parskip 2001/04/09 non-zero parskip adjustments
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\import\import.sty"
+(C:\Users\Marit\AppData\Roaming\MiKTeX\2.9\tex\latex\import\import.sty
 Package: import 2009/03/23  v 5.1
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\datetime\datetime.sty"
+(C:\Users\Marit\AppData\Roaming\MiKTeX\2.9\tex\latex\datetime\datetime.sty
 Package: datetime 2015/03/20 v2.60 Date Time Package
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.sty"
-Package: etoolbox 2017/01/02 v2.4 e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count88
+(C:\Users\Marit\AppData\Roaming\MiKTeX\2.9\tex\latex\etoolbox\etoolbox.sty
+Package: etoolbox 2017/11/22 v2.5 e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count89
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\fmtcount\fmtcount.sty"
-Package: fmtcount 2017/07/21 v3.03
+(C:\Users\Marit\AppData\Roaming\MiKTeX\2.9\tex\latex\fmtcount\fmtcount.sty
+Package: fmtcount 2017/09/16 v3.04
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
@@ -378,66 +407,66 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 \XKV@tempa@toks=\toks17
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\xkeyval\keyval.tex"))
-\XKV@depth=\count89
+\XKV@depth=\count90
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\fmtcount\fcprefix.sty"
+(C:\Users\Marit\AppData\Roaming\MiKTeX\2.9\tex\latex\fmtcount\fcprefix.sty
 Package: fcprefix 2012/09/28
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\fmtcount\fcnumparser.sty"
+(C:\Users\Marit\AppData\Roaming\MiKTeX\2.9\tex\latex\fmtcount\fcnumparser.sty
 Package: fcnumparser 2017/06/15
-\fc@digit@counter=\count90
-))
-("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+\fc@digit@counter=\count91
+)) ("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks18
-\ex@=\dimen103
+\ex@=\dimen104
 )
-\c@padzeroesN=\count91
-\fc@tmpcatcode=\count92
-\@DT@modctr=\count93
-\@ordinalctr=\count94
-\@orgargctr=\count95
-\@strctr=\count96
-\@tmpstrctr=\count97
-\@DT@loopN=\count98
-\@DT@X=\count99
+\c@padzeroesN=\count92
+\fc@tmpcatcode=\count93
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\fmtcount\fc-english.def"
+(C:\Users\Marit\AppData\Roaming\MiKTeX\2.9\tex\latex\fmtcount\fc-english.def
 File: fc-english.def 2016/01/12
-))
-("C:\Program Files\MiKTeX 2.9\tex\latex\datetime\datetime-defaults.sty"
+)
+\@DT@modctr=\count94
+\@ordinalctr=\count95
+\@orgargctr=\count96
+\@strctr=\count97
+\@tmpstrctr=\count98
+\@DT@loopN=\count99
+\@DT@X=\count100
+)
+(C:\Users\Marit\AppData\Roaming\MiKTeX\2.9\tex\latex\datetime\datetime-defaults
+.sty
 Package: datetime-defaults 2013/09/10
 )
-\@day=\count100
-\@month=\count101
-\@year=\count102
-\c@HOUR=\count103
-\c@HOURXII=\count104
-\c@MINUTE=\count105
-\c@TOHOUR=\count106
-\c@TOMINUTE=\count107
-\c@SECOND=\count108
-\currenthour=\count109
-\currentminute=\count110
-\currentsecond=\count111
+\@day=\count101
+\@month=\count102
+\@year=\count103
+\c@HOUR=\count104
+\c@HOURXII=\count105
+\c@MINUTE=\count106
+\c@TOHOUR=\count107
+\c@TOMINUTE=\count108
+\c@SECOND=\count109
+\currenthour=\count110
+\currentminute=\count111
+\currentsecond=\count112
 Package datetime Info: No datetime.cfg file found, using default settings on in
 put line 308.
-\@dtctr=\count112
-\dayofyear=\count113
-\dayofweek=\count114
+\@dtctr=\count113
+\dayofyear=\count114
+\dayofweek=\count115
 LaTeX Info: Redefining \today on input line 736.
 \dt@a=\toks19
 \dt@b=\toks20
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
-Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
-Package: graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
@@ -448,7 +477,51 @@ File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 Package graphics Info: Driver file: pdftex.def on input line 99.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
-File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
+File: pdftex.def 2017/06/24 v1.0g Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen105
+\Gin@req@width=\dimen106
+)
+(C:\Users\Marit\AppData\Roaming\MiKTeX\2.9\tex\latex\fancyhdr\fancyhdr.sty
+Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip50
+\f@nch@O@elh=\skip51
+\f@nch@O@erh=\skip52
+\f@nch@O@olh=\skip53
+\f@nch@O@orh=\skip54
+\f@nch@O@elf=\skip55
+\f@nch@O@erf=\skip56
+\f@nch@O@olf=\skip57
+\f@nch@O@orf=\skip58
+)
+(C:\Users\Marit\AppData\Roaming\MiKTeX\2.9\tex\latex\appendix\appendix.sty
+Package: appendix 2009/09/02 v1.2b extra appendix facilities
+\c@@pps=\count116
+\c@@ppsavesec=\count117
+\c@@ppsaveapp=\count118
+)
+(C:\Users\Marit\AppData\Roaming\MiKTeX\2.9\tex\latex\pdfpages\pdfpages.sty
+Package: pdfpages 2017/10/31 v0.5l Insert pages of external PDF documents (AM)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\calc.sty"
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count119
+\calc@Bcount=\count120
+\calc@Adimen=\dimen107
+\calc@Bdimen=\dimen108
+\calc@Askip=\skip59
+\calc@Bskip=\skip60
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count121
+\calc@Cskip=\skip61
+)
+(C:\Users\Marit\AppData\Roaming\MiKTeX\2.9\tex\latex\eso-pic\eso-pic.sty
+Package: eso-pic 2015/07/21 v2.0g eso-pic (RN)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\atbegshi.sty"
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
@@ -456,48 +529,10 @@ Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )
-\Gread@gobject=\count115
-))
-\Gin@req@height=\dimen104
-\Gin@req@width=\dimen105
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\cite\cite.sty"
-LaTeX Info: Redefining \cite on input line 302.
-LaTeX Info: Redefining \nocite on input line 332.
-Package: cite 2015/02/27  v 5.5
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\appendix\appendix.sty"
-Package: appendix 2009/09/02 v1.2b extra appendix facilities
-\c@@pps=\count116
-\c@@ppsavesec=\count117
-\c@@ppsaveapp=\count118
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\pdfpages\pdfpages.sty"
-Package: pdfpages 2017/08/14 v0.5k Insert pages of external PDF documents (AM)
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\tools\calc.sty"
-Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count119
-\calc@Bcount=\count120
-\calc@Adimen=\dimen106
-\calc@Bdimen=\dimen107
-\calc@Askip=\skip50
-\calc@Bskip=\skip51
-LaTeX Info: Redefining \setlength on input line 80.
-LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count121
-\calc@Cskip=\skip52
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\eso-pic\eso-pic.sty"
-Package: eso-pic 2015/07/21 v2.0g eso-pic (RN)
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\atbegshi.sty"
-Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
-
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
 Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
+(C:\Users\Marit\AppData\Roaming\MiKTeX\2.9\tex\latex\xcolor\xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg"
@@ -517,11 +552,11 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\dvipsnam.def"
 File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
 )))
-\AM@pagewidth=\dimen108
-\AM@pageheight=\dimen109
+\AM@pagewidth=\dimen109
+\AM@pageheight=\dimen110
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\pdfpages\pppdftex.def"
-File: pppdftex.def 2017/08/14 v0.5k Pdfpages driver for pdfTeX (AM)
+(C:\Users\Marit\AppData\Roaming\MiKTeX\2.9\tex\latex\pdfpages\pppdftex.def
+File: pppdftex.def 2017/10/31 v0.5l Pdfpages driver for pdfTeX (AM)
 )
 \AM@pagebox=\box26
 \AM@global@opts=\toks21
@@ -529,32 +564,19 @@ File: pppdftex.def 2017/08/14 v0.5k Pdfpages driver for pdfTeX (AM)
 \c@AM@survey=\count122
 \AM@templatesizebox=\box27
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty"
-Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
-s
-\f@nch@headwidth=\skip53
-\f@nch@O@elh=\skip54
-\f@nch@O@erh=\skip55
-\f@nch@O@olh=\skip56
-\f@nch@O@orh=\skip57
-\f@nch@O@elf=\skip58
-\f@nch@O@erf=\skip59
-\f@nch@O@olf=\skip60
-\f@nch@O@orf=\skip61
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\titlesec\titlesec.sty"
+(C:\Users\Marit\AppData\Roaming\MiKTeX\2.9\tex\latex\titlesec\titlesec.sty
 Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \ttl@box=\box28
 \beforetitleunit=\skip62
 \aftertitleunit=\skip63
-\ttl@plus=\dimen110
-\ttl@minus=\dimen111
+\ttl@plus=\dimen111
+\ttl@minus=\dimen112
 \ttl@toksa=\toks23
-\titlewidth=\dimen112
-\titlewidthlast=\dimen113
-\titlewidthfirst=\dimen114
+\titlewidth=\dimen113
+\titlewidthlast=\dimen114
+\titlewidthfirst=\dimen115
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\csquotes\csquotes.sty"
+(C:\Users\Marit\AppData\Roaming\MiKTeX\2.9\tex\latex\csquotes\csquotes.sty
 Package: csquotes 2017/03/11 v5.2b context-sensitive quotations (JAW)
 \csq@reset=\count123
 \csq@gtype=\count124
@@ -564,55 +586,23 @@ Package: csquotes 2017/03/11 v5.2b context-sensitive quotations (JAW)
 \csq@tshold=\count128
 \csq@ltx@everypar=\toks24
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\csquotes\csquotes.def"
+(C:\Users\Marit\AppData\Roaming\MiKTeX\2.9\tex\latex\csquotes\csquotes.def
 File: csquotes.def 2017/03/11 v5.2b csquotes generic definitions (JAW)
 )
 Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
 Package csquotes Info: ... configuration file loaded successfully.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\csquotes\csquotes.cfg"
+(C:\Users\Marit\AppData\Roaming\MiKTeX\2.9\tex\latex\csquotes\csquotes.cfg
 File: csquotes.cfg 
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\comment\comment.sty"
-\CommentStream=\write3
+(C:\Users\Marit\AppData\Roaming\MiKTeX\2.9\tex\latex\url\url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+(C:\Users\Marit\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\biblatex.sty
+Package: biblatex 2017/11/21 v3.9 programmable bibliographies (PK/JW/AB)
 
-Excluding comment 'comment')
-Package csquotes Info: Checking for multilingual support...
-Package csquotes Info: ... none found.
-
-
-LaTeX Warning: Unused global option(s):
-    [usenames].
-
-(main.aux)
-\openout1 = `main.aux'.
-
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
- ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count129
-\scratchdimen=\dimen115
-\scratchbox=\box29
-\nofMPsegments=\count130
-\nofMParguments=\count131
-\everyMPshowfont=\toks25
-\MPscratchCnt=\count132
-\MPscratchDim=\dimen116
-\MPnumerator=\count133
-\makeMPintoPDFobject=\count134
-\everyMPtoPDFconversion=\toks26
-) ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
 Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
 )
 
@@ -625,15 +615,6 @@ Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
-Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
-Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
-Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 
@@ -647,14 +628,297 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 )))
+(C:\Users\Marit\AppData\Roaming\MiKTeX\2.9\tex\latex\logreq\logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count129
+
+(C:\Users\Marit\AppData\Roaming\MiKTeX\2.9\tex\latex\logreq\logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+(C:\Users\Marit\AppData\Roaming\MiKTeX\2.9\tex\latex\xstring\xstring.sty
+(C:\Users\Marit\AppData\Roaming\MiKTeX\2.9\tex\generic\xstring\xstring.tex
+\@xs@message=\write3
+\integerpart=\count130
+\decimalpart=\count131
+)
+Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
+)
+\c@tabx@nest=\count132
+\c@listtotal=\count133
+\c@listcount=\count134
+\c@liststart=\count135
+\c@liststop=\count136
+\c@citecount=\count137
+\c@citetotal=\count138
+\c@multicitecount=\count139
+\c@multicitetotal=\count140
+\c@instcount=\count141
+\c@maxnames=\count142
+\c@minnames=\count143
+\c@maxitems=\count144
+\c@minitems=\count145
+\c@citecounter=\count146
+\c@savedcitecounter=\count147
+\c@uniquelist=\count148
+\c@uniquename=\count149
+\c@refsection=\count150
+\c@refsegment=\count151
+\c@maxextratitle=\count152
+\c@maxextratitleyear=\count153
+\c@maxextradate=\count154
+\c@maxextraalpha=\count155
+\c@abbrvpenalty=\count156
+\c@highnamepenalty=\count157
+\c@lownamepenalty=\count158
+\c@maxparens=\count159
+\c@parenlevel=\count160
+\blx@tempcnta=\count161
+\blx@tempcntb=\count162
+\blx@tempcntc=\count163
+\blx@maxsection=\count164
+\blx@maxsegment@0=\count165
+\blx@notetype=\count166
+\blx@parenlevel@text=\count167
+\blx@parenlevel@foot=\count168
+\blx@sectionciteorder@0=\count169
+\labelnumberwidth=\skip64
+\labelalphawidth=\skip65
+\biblabelsep=\skip66
+\bibitemsep=\skip67
+\bibnamesep=\skip68
+\bibinitsep=\skip69
+\bibparsep=\skip70
+\bibhang=\skip71
+\blx@bcfin=\read1
+\blx@bcfout=\write4
+\c@mincomprange=\count170
+\c@maxcomprange=\count171
+\c@mincompwidth=\count172
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+(C:\Users\Marit\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\blx-dm.def)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'numeric.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count173
+\c@savedafterword=\count174
+\c@annotator=\count175
+\c@savedannotator=\count176
+\c@author=\count177
+\c@savedauthor=\count178
+\c@bookauthor=\count179
+\c@savedbookauthor=\count180
+\c@commentator=\count181
+\c@savedcommentator=\count182
+\c@editor=\count183
+\c@savededitor=\count184
+\c@editora=\count185
+\c@savededitora=\count186
+\c@editorb=\count187
+\c@savededitorb=\count188
+\c@editorc=\count189
+\c@savededitorc=\count190
+\c@foreword=\count191
+\c@savedforeword=\count192
+\c@holder=\count193
+\c@savedholder=\count194
+\c@introduction=\count195
+\c@savedintroduction=\count196
+\c@namea=\count197
+\c@savednamea=\count198
+\c@nameb=\count199
+\c@savednameb=\count266
+\c@namec=\count267
+\c@savednamec=\count268
+\c@translator=\count269
+\c@savedtranslator=\count270
+\c@shortauthor=\count271
+\c@savedshortauthor=\count272
+\c@shorteditor=\count273
+\c@savedshorteditor=\count274
+\c@labelname=\count275
+\c@savedlabelname=\count276
+\c@institution=\count277
+\c@savedinstitution=\count278
+\c@lista=\count279
+\c@savedlista=\count280
+\c@listb=\count281
+\c@savedlistb=\count282
+\c@listc=\count283
+\c@savedlistc=\count284
+\c@listd=\count285
+\c@savedlistd=\count286
+\c@liste=\count287
+\c@savedliste=\count288
+\c@listf=\count289
+\c@savedlistf=\count290
+\c@location=\count291
+\c@savedlocation=\count292
+\c@organization=\count293
+\c@savedorganization=\count294
+\c@origlocation=\count295
+\c@savedoriglocation=\count296
+\c@origpublisher=\count297
+\c@savedorigpublisher=\count298
+\c@publisher=\count299
+\c@savedpublisher=\count300
+\c@language=\count301
+\c@savedlanguage=\count302
+\c@origlanguage=\count303
+\c@savedoriglanguage=\count304
+\c@pageref=\count305
+\c@savedpageref=\count306
+\shorthandwidth=\skip72
+\shortjournalwidth=\skip73
+\shortserieswidth=\skip74
+\shorttitlewidth=\skip75
+\shortauthorwidth=\skip76
+\shorteditorwidth=\skip77
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(C:\Users\Marit\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\blx-compat.def
+File: blx-compat.def 2017/11/21 v3.9 biblatex compatibility (PK/JW/AB)
+)
+Package biblatex Info: Trying to load BibTeX backend compatibility...
+Package biblatex Info: ... file 'blx-bibtex.def' found.
+
+(C:\Users\Marit\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\blx-bibtex.def
+File: blx-bibtex.def 2017/11/21 v3.9 biblatex compatibility (PK/JW/AB)
+
+
+Package biblatex Warning: Using fall-back BibTeX(8) backend:
+(biblatex)                functionality may be reduced/unavailable.
+
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+ (C:\Users\Marit\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\biblatex.def
+File: biblatex.def 2017/11/21 v3.9 biblatex compatibility (PK/JW/AB)
+\c@textcitecount=\count307
+\c@textcitetotal=\count308
+\c@textcitemaxnames=\count309
+\c@biburlnumpenalty=\count310
+\c@biburlucpenalty=\count311
+\c@biburllcpenalty=\count312
+\c@smartand=\count313
+)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+
+(C:\Users\Marit\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\bbx\numeric.bbx
+File: numeric.bbx 2017/11/21 v3.9 biblatex bibliography style (PK/JW/AB)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+(C:\Users\Marit\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\bbx\standard.bbx
+File: standard.bbx 2017/11/21 v3.9 biblatex bibliography style (PK/JW/AB)
+\c@bbx:relatedcount=\count314
+\c@bbx:relatedtotal=\count315
+))
+Package biblatex Info: Trying to load citation style 'numeric'...
+Package biblatex Info: ... file 'numeric.cbx' found.
+ (C:\Users\Marit\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\cbx\numeric.cbx
+File: numeric.cbx 2017/11/21 v3.9 biblatex citation style (PK/JW/AB)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+ (C:\Users\Marit\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\biblatex.cfg
+File: biblatex.cfg 
+))
+(C:\Users\Marit\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.sty
+\lst@mode=\count316
+\lst@gtempboxa=\box29
+\lst@token=\toks25
+\lst@length=\count317
+\lst@currlwidth=\dimen116
+\lst@column=\count318
+\lst@pos=\count319
+\lst@lostspace=\dimen117
+\lst@width=\dimen118
+\lst@newlines=\count320
+\lst@lineno=\count321
+\lst@maxwidth=\dimen119
+
+(C:\Users\Marit\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+\c@lstnumber=\count322
+\lst@skipnumbers=\count323
+\lst@framebox=\box30
+)
+(C:\Users\Marit\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.cfg
+File: listings.cfg 2015/06/04 1.6 listings configuration
+))
+Package: listings 2015/06/04 1.6 (Carsten Heinz)
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... found 'babel' package.
+Package csquotes Info: Adjusting default style.
+Package csquotes Info: Redefining alias 'default' -> 'english'.
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+(C:\Users\Marit\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\lbx\english.lbx
+File: english.lbx 2017/11/21 v3.9 biblatex localization (PK/JW/AB)
+)
+(main.aux)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+
+(C:\Users\Marit\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count324
+\scratchdimen=\dimen120
+\scratchbox=\box31
+\nofMPsegments=\count325
+\nofMParguments=\count326
+\everyMPshowfont=\toks26
+\MPscratchCnt=\count327
+\MPscratchDim=\dimen121
+\MPnumerator=\count328
+\makeMPintoPDFobject=\count329
+\everyMPtoPDFconversion=\toks27
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+))
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 38.
 Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
-\AtBeginShipoutBox=\box30
+\AtBeginShipoutBox=\box32
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\pdflscape.sty"
 Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
@@ -663,32 +927,128 @@ Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
 Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
-) (front_page.tex
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+Package biblatex Info: Input encoding 'utf8' specified.
+Package biblatex Info: Data encoding 'utf8' specified.
+(biblatex)             No need to reencode data.
+\openout4 = `main-blx.bib'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'main.bbl' found.
+ (main.bbl)
+Package biblatex Info: Reference section=0 on input line 34.
+Package biblatex Info: Reference segment=0 on input line 34.
+\c@lstlisting=\count330
+
+(front_page.tex
 <ntnuLogo.png, id=1, 194.7275pt x 260.975pt>
 File: ntnuLogo.png Graphic file (type png)
- <use ntnuLogo.png>
-Package pdftex.def Info: ntnuLogo.png used on input line 29.
-(pdftex.def)             Requested size: 103.50105pt x 138.71033pt.
+<use ntnuLogo.png>
+Package pdftex.def Info: ntnuLogo.png  used on input line 29. on input line 29.
+
+Package pdftex.def Info: Requested size: 103.50105pt x 138.71033pt on input lin
+e 29.
  [1
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <./ntnuLogo.png>]) (sammen
-drag.tex)
-(preface.tex [1
+{C:/Users/Marit/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./ntnuLogo.
+png>])
+<oppgavetekst.pdf, id=11, pagebox=cropbox, 597.55246pt x 845.19763pt>
+File: oppgavetekst.pdf Graphic file (type pdf)
+<use oppgavetekst.pdf>
+Package pdftex.def Info: oppgavetekst.pdf  used on input line 39. on input line
+ 39.
+Package pdftex.def Info: Requested size: 597.551pt x 845.19557pt on input line 
+39.
+File: oppgavetekst.pdf Graphic file (type pdf)
+<use oppgavetekst.pdf>
+Package pdftex.def Info: oppgavetekst.pdf  used on input line 39. on input line
+ 39.
+Package pdftex.def Info: Requested size: 597.551pt x 845.19557pt on input line 
+39.
+File: oppgavetekst.pdf Graphic file (type pdf)
+<use oppgavetekst.pdf>
+Package pdftex.def Info: oppgavetekst.pdf  used on input line 39. on input line
+ 39.
+Package pdftex.def Info: Requested size: 597.551pt x 845.19557pt on input line 
+39.
+<oppgavetekst.pdf, id=15, page=1, pagebox=cropbox, 597.55246pt x 845.19763pt>
+File: oppgavetekst.pdf Graphic file (type pdf)
+<use oppgavetekst.pdf, page 1>
+Package pdftex.def Info: oppgavetekst.pdf , page1 used on input line 39. on inp
+ut line 39.
+Package pdftex.def Info: Requested size: 597.551pt x 845.19557pt on input line 
+39.
+File: oppgavetekst.pdf Graphic file (type pdf)
+<use oppgavetekst.pdf, page 1>
+Package pdftex.def Info: oppgavetekst.pdf , page1 used on input line 39. on inp
+ut line 39.
+Package pdftex.def Info: Requested size: 501.22945pt x 708.95523pt on input lin
+e 39.
+File: oppgavetekst.pdf Graphic file (type pdf)
+<use oppgavetekst.pdf, page 1>
+Package pdftex.def Info: oppgavetekst.pdf , page1 used on input line 39. on inp
+ut line 39.
+Package pdftex.def Info: Requested size: 501.22945pt x 708.95523pt on input lin
+e 39.
+File: oppgavetekst.pdf Graphic file (type pdf)
+<use oppgavetekst.pdf, page 1>
+Package pdftex.def Info: oppgavetekst.pdf , page1 used on input line 39. on inp
+ut line 39.
+Package pdftex.def Info: Requested size: 501.22945pt x 708.95523pt on input lin
+e 39.
+File: oppgavetekst.pdf Graphic file (type pdf)
+<use oppgavetekst.pdf, page 1>
+Package pdftex.def Info: oppgavetekst.pdf , page1 used on input line 39. on inp
+ut line 39.
+Package pdftex.def Info: Requested size: 501.22945pt x 708.95523pt on input lin
+e 39.
+ [2 <./oppgavetekst.pdf>]
+<oppgavetekst.pdf, id=33, page=2, pagebox=cropbox, 597.55246pt x 845.19763pt>
+File: oppgavetekst.pdf Graphic file (type pdf)
+<use oppgavetekst.pdf, page 2>
+Package pdftex.def Info: oppgavetekst.pdf , page2 used on input line 39. on inp
+ut line 39.
+Package pdftex.def Info: Requested size: 501.22945pt x 708.95523pt on input lin
+e 39.
+File: oppgavetekst.pdf Graphic file (type pdf)
+<use oppgavetekst.pdf, page 2>
+Package pdftex.def Info: oppgavetekst.pdf , page2 used on input line 39. on inp
+ut line 39.
+Package pdftex.def Info: Requested size: 501.22945pt x 708.95523pt on input lin
+e 39.
+File: oppgavetekst.pdf Graphic file (type pdf)
+<use oppgavetekst.pdf, page 2>
+Package pdftex.def Info: oppgavetekst.pdf , page2 used on input line 39. on inp
+ut line 39.
+Package pdftex.def Info: Requested size: 501.22945pt x 708.95523pt on input lin
+e 39.
+ [3 <./oppgavetekst.pdf>]
+(abstract.tex) (sammendrag.tex [1
 
 ]) [2
 
 ] (main.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 5.
+(Font)              <7> on input line 15.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 5.
+(Font)              <5> on input line 15.
  [3
 
-] [4])
-\tf@toc=\write4
-\openout4 = `main.toc'.
+])
+\tf@toc=\write5
+\openout5 = `main.toc'.
 
- (introduction.tex [1]
+ [4] (main.lof)
+\tf@lof=\write6
+\openout6 = `main.lof'.
+
+ [5
+
+]
+(introduction.tex
 Chapter 1.
 LaTeX Font Info:    Try loading font information for OT1+phv on input line 1.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1phv.fd"
@@ -698,9 +1058,11 @@ LaTeX Font Info:    Try loading font information for OT1+ptm on input line 1.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd"
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
-)) (cloud_services.tex [2
+) [1
 
-]
+
+])
+(cloud_services.tex [2]
 Chapter 2.
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 7.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
@@ -715,79 +1077,105 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 Chapter 3.
 [8
 
-] [9] [10] [11] [12] [13] [14] [15] [16] [17] [18] [19]
-Overfull \hbox (0.47287pt too wide) in paragraph at lines 169--170
-[]\OT1/cmr/m/n/10 RethingDB: Document-based, dis-tributed database with an ad-m
-in con-sole which
- []
-
-[20] [21]
-Overfull \hbox (19.74947pt too wide) in paragraph at lines 207--208
-\OT1/cmr/m/n/10 AWS IoT: Pro-vides se-cure, bi-directional com-mu-ni-ca-tion be
--tween Internet-connected
- []
-
-[22]
-Underfull \vbox (badness 1783) has occurred while \output is active []
-
- [23])
-(implementing_sensor_network.tex [24]
+] [9]) (implementing_sensor_network.tex [10] [11]
 Chapter 4.
-) (setting_up_cloud.tex [25
+[12
 
-]
+]) (setting_up_cloud.tex [13]
 Chapter 5.
-) (remote_control.tex [26
+[14
 
 ]
+Overfull \hbox (3.98615pt too wide) in paragraph at lines 21--21
+|[]\OT1/cmr/bx/n/14.4 Web ap-pli-ca-tion with AWS Elas-tic Beanstalk| 
+ []
+
+[15]) (remote_control.tex [16]
 Chapter 6.
-) (results.tex [27
+[17
 
 ]
+<Figures/remote_control.png, id=115, 191.5155pt x 104.7915pt>
+File: Figures/remote_control.png Graphic file (type png)
+<use Figures/remote_control.png>
+Package pdftex.def Info: Figures/remote_control.png  used on input line 13. on 
+input line 13.
+Package pdftex.def Info: Requested size: 191.51501pt x 104.79124pt on input lin
+e 13.
+) (results.tex [18 <./Figures/remote_control.png>]
 Chapter 7.
-) (discussion.tex [28
+) (discussion.tex [19
 
 ]
 Chapter 8.
-) (conclusion.tex [29
+) (conclusion.tex [20
 
 ]
 Chapter 9.
-) (future_work.tex [30
+) [21
 
-]
-Chapter 10.
-) [31
+] [22
 
-] [32
+] [23] [24
 
 
-] [33] (main.bbl [34
+] (appendix.tex
+Appendix A.
+[25
 
-]) [35] (main.aux) ) 
+] [26]
+Appendix B.
+(C:\Users\Marit\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstlang1.sty
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+)
+(Code/tbsense.py
+LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10> not available
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 1.
+ [27
+
+] [28]) (Code/tbsense_scan.py [29] [30]) (Code/post_db.py
+[31]) (Code/get_leds.py [32]) (Code/views.py [33] [34]) (Code/rgbled_db.py
+[35])
+(C:\Users\Marit\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstlang1.sty
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+)
+(C:\Users\Marit\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+)
+(Code/index.html [36] [37] [38]) [39]
+Appendix C.
+) [40
+
+] (main.aux)
+Package logreq Info: Writing requests to 'main.run.xml'.
+\openout1 = `main.run.xml'.
+
+ ) 
 Here is how much of TeX's memory you used:
- 5836 strings out of 493323
- 80873 string characters out of 3139067
- 181427 words of memory out of 3000000
- 9198 multiletter control sequences out of 15000+200000
- 11664 words of font info for 33 fonts, out of 3000000 for 9000
+ 14575 strings out of 493312
+ 233999 string characters out of 3138898
+ 814989 words of memory out of 3000000
+ 17825 multiletter control sequences out of 15000+200000
+ 11647 words of font info for 34 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,12n,44p,1289b,354s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C
-:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Progra
-m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/
-MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiKTeX 
-2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts
-/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
-blic/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsf
-onts/cm/cmsl10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
-cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.p
-fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/P
-rogram Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files/M
-iKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb>
-Output written on main.pdf (40 pages, 233186 bytes).
+ 45i,18n,82p,1055b,2022s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
+ype1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/cm/cmitt10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
+m/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.p
+fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
+e1/urw/helvetic/uhvr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/u
+tmr8a.pfb>
+Output written on main.pdf (48 pages, 286940 bytes).
 PDF statistics:
- 183 PDF objects out of 1000 (max. 8388607)
+ 240 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 

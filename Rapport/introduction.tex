@@ -1,6 +1,23 @@
 \chapter{Introduction}
+This paper aims to discuss certain relevant topics related to cloud computing and presents a way of implementing bi-directional communication with IoT-like devices via a web-interface, using cloud services. 
 
-Cloud solution providers are becoming more and more common, so many that it might be hard to keep track
-This paper aimes to discuss certain relevant topics and the pros and cons of them in each provider
+\section{Cloud Solutions}
+Cloud computing changed the way information technology (IT) services are developed and deployed by providing the opportunity of moving computing processes from local computers to centralized facilities operated by third-party operators.  
+Cloud solution providers are becoming more and more common, there are so many that it might be hard to keep track of the different providers and the services they offer. 
 
-The relevance will be compared to a certain case - smart meters - m-bus not ideal for isolated areas
+\section{Smart Grids}
+A Smart Grid is an electric grid that enables digital two-way communication to better utilize the energy infrastructure \cite{smartgrid}. The traditional electric grid was built based on the idea that the electricity should be transferred directly from the centralized power plant to households and the communication flowing only one way. Today, with emerging trends toward renewable energy sources, decentralized power production and increased user flexibility, Smart Grids provides a solution to integrate these factors into a new, better and more robust electric grid. 
+
+By utilizing cloud services with Smart Grids, one can take advantage of the existing infrastructures that is available in most households today, namely the Internet. The different nodes in the Smart Grid can be organized as IoT nodes which can upload data measurements to the cloud. It is possible to provide a interface for both the electricity company to gather information from costumers, as well as for costumers to keep track of their usage in real-time. This could help distribute electricity consumption to avoid peaks and reduce costs for consumers as they can better monitor their own usage and get an overview of when power is cheaper. Internet-connected nodes also enables two-way communication. 
+
+This implementation consists of three peripheral nodes with multiple sensors connected to a central node which is the interface to the cloud.
+
+%detection of interruption - rerouting
+
+%an electricity supply network that uses digital communications technology to detect and react to local changes in usage
+
+
+\section{Thesis Outline}
+Chapter 2 presents an overview of cloud computing, as well as some common terms on the subject. Chapter 3 discusses services from different Cloud providers, and assess the services based on certain criteria. Chapters 4 through 6 present a general implementation of the chosen cloud service provider. The result and discussion of the paper will be presented in chapter 7 and 8, respectively. Appendix A gives an overview of the hardware and the specific implementation in this project. Appendix B contains the source code developed in the project. 
+
+

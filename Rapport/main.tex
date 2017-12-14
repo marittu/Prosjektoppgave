@@ -1,17 +1,30 @@
-\documentclass[usenames,dvipsnames, b5paper, twoside, openright]{report}
+\documentclass[dvipsnames, b5paper, twoside, openright]{report}
 \usepackage[utf8]{inputenc}
 \usepackage[Lenny]{fncychap}
+\usepackage[english]{babel}
 \usepackage{parskip}
 \usepackage{import}
 \usepackage{datetime}
 \usepackage{graphicx}
-\usepackage{cite}
+\usepackage{fancyhdr}
 \usepackage[toc,page]{appendix}
 \usepackage{pdfpages}
-\usepackage{fancyhdr}
 \usepackage{titlesec}
 \usepackage{csquotes}
-\usepackage{comment}
+\usepackage[hyphens]{url}
+\usepackage[style=numeric, backend=bibtex, sorting=none]{biblatex}
+\usepackage{listings}
+\lstset{
+  basicstyle=\ttfamily,
+  columns=fullflexible,
+  frame=single,
+  breaklines=true,
+  postbreak=\mbox{{$\hookrightarrow$}\space},
+}
+\emergencystretch=1em
+\addbibresource{sources.bib}
+
+\makeatletter\@openrightfalse\makeatother
 %\titleformat{\chapter}{\normalfont\huge}{\thechapter.}{20pt}{\huge}
 
 \newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
@@ -20,32 +33,35 @@
 
 \begin{document}
 
-%\includepdf[pages={1}]{oppgavetekst.pdf}
 
 \import{front_page}{front_page.tex}
 
+\includepdf[pages={1,2}]{oppgavetekst.pdf}
+%\addcontentsline{toc}{chapter}{Project Description}
 
 \pagenumbering{roman}
 \setcounter{page}{1}
 \setcounter{tocdepth}{3}
 
+\let\cleardoublepage\clearpage
+\import{./}{abstract.tex}
+\addcontentsline{toc}{chapter}{Abstract}
+
 
 \let\cleardoublepage\clearpage
 \import{./}{sammendrag.tex}
-\addcontentsline{toc}{chapter}{Abstract}
-%\addtocontents{toc}{\protect\setcounter{tocdepth}{0}}
+\addcontentsline{toc}{chapter}{Sammendrag}
 
-\let\cleardoublepage\clearpage
-\import{./}{preface.tex}
-\addcontentsline{toc}{chapter}{Preface}
-%\addtocontents{toc}{\protect\setcounter{tocdepth}{0}}
+
 \let\cleardoublepage\clearpage
 \tableofcontents
+\addcontentsline{toc}{chapter}{Table of Contents}
 
+\let\cleardoublepage\clearpage
+\listoffigures                                  
+\addcontentsline{toc}{chapter}{List of Figures}
+\cleardoublepage
 
-%\listoffigures                                  
-%\addcontentsline{toc}{chapter}{List of Figures}
-%\cleardoublepage
 
 %\listoftables                                   
 %\addcontentsline{toc}{chapter}{List of Tables}
@@ -53,6 +69,8 @@
 
 \pagenumbering{arabic}
 \setcounter{page}{1}
+\fancyhead[LE,RO]{\itshape \nouppercase \rightmark}
+\fancyhead[LO,RE]{\itshape \nouppercase Chapter \arabic{chapter}}
 \pagestyle{fancy}
 
 \let\cleardoublepage\clearpage
@@ -73,19 +91,16 @@
 \import{./}{discussion.tex}
 \let\cleardoublepage\clearpage
 \import{./}{conclusion.tex}
-\let\cleardoublepage\clearpage
-\import{./}{future_work.tex}
+%\let\cleardoublepage\clearpage
+%\import{./}{future_work.tex}
+
 
 \let\cleardoublepage\clearpage
-
+\printbibliography
+\let\cleardoublepage\clearpage
 \begin{appendices}
+\import{./}{appendix.tex}
 \end{appendices}
-\let\cleardoublepage\clearpage
-\addcontentsline{toc}{chapter}{Bibliography}
-\let\cleardoublepage\clearpage
-\bibliographystyle{unsrt}
-\bibliography{sources}{}
-
 
 \end{document}
 

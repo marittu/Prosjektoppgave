@@ -1,62 +1,89 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{Abstract}{i}
-\contentsline {chapter}{Preface}{ii}
-\contentsline {chapter}{\numberline {1}Introduction}{2}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Sammendrag}{ii}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Table of Contents}{iv}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{List of Figures}{v}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {1}Introduction}{1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.1}Cloud Solutions}{1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.2}Smart Grids}{1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.3}Thesis Outline}{2}
+\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {2}Cloud Computing}{3}
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.1}Service Model}{4}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.1.1}Software as a Service}{4}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.1.2}Platform as a Service}{5}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.1.3}Infrastructure as a Service}{5}
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.2}Deployment Model}{6}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2.1}Public cloud}{6}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2.2}Private cloud}{6}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2.3}Hybrid cloud}{7}
-\contentsline {section}{\numberline {2.3}Security in the cloud}{7}
+\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {3}Cloud Service Providers}{8}
-\contentsline {section}{\numberline {3.1}Amazon Web Services}{8}
-\contentsline {section}{\numberline {3.2}Microsoft Azure}{9}
-\contentsline {section}{\numberline {3.3}IBM}{9}
-\contentsline {section}{\numberline {3.4}Google Cloud Platform}{9}
-\contentsline {section}{\numberline {3.5}Salesforce.com}{10}
-\contentsline {section}{\numberline {3.6}Oracle}{10}
-\contentsline {section}{\numberline {3.7}Rackspace}{10}
-\contentsline {section}{\numberline {3.8}Comparison}{11}
-\contentsline {subsection}{\numberline {3.8.1}Azure vs. AWS}{11}
-\contentsline {subsection}{\numberline {3.8.2}IaaS}{11}
-\contentsline {subsection}{\numberline {3.8.3}PaaS}{11}
-\contentsline {subsection}{\numberline {3.8.4}Hybrid Cloud}{11}
-\contentsline {subsection}{\numberline {3.8.5}Open Source Developers}{12}
-\contentsline {subsection}{\numberline {3.8.6}Features}{12}
-\contentsline {section}{\numberline {3.9}Feature Comparison}{12}
-\contentsline {subsection}{\numberline {3.9.1}Virtual Private Cloud and Privacy}{12}
-\contentsline {subsubsection}{Amazon Web Services}{12}
-\contentsline {subsubsection}{Microsoft Azure}{13}
-\contentsline {subsubsection}{Google Cloud Platform}{14}
-\contentsline {subsubsection}{IBM Bluemix}{15}
-\contentsline {subsubsection}{Oracle}{15}
-\contentsline {subsubsection}{Rackspace}{16}
-\contentsline {subsection}{\numberline {3.9.2}Database}{16}
-\contentsline {subsubsection}{Amazon Web Services}{16}
-\contentsline {subsubsection}{Microsoft Azure}{17}
-\contentsline {subsubsection}{Google Cloud Platform}{18}
-\contentsline {subsubsection}{IBM Bluemix}{19}
-\contentsline {subsubsection}{Oracle}{21}
-\contentsline {subsubsection}{Rackspace}{21}
-\contentsline {subsection}{\numberline {3.9.3}IoT}{22}
-\contentsline {subsubsection}{Amazon Web Services}{22}
-\contentsline {subsubsection}{Microsoft Azure}{23}
-\contentsline {subsubsection}{Google Cloud Platform}{23}
-\contentsline {subsubsection}{Google Firebase}{23}
-\contentsline {subsubsection}{IBM Bluemix}{24}
-\contentsline {subsubsection}{Oracle}{24}
-\contentsline {subsubsection}{Rackspace}{24}
-\contentsline {subsection}{\numberline {3.9.4}Web Development}{24}
-\contentsline {section}{\numberline {3.10}Comparison Conclusion}{24}
-\contentsline {chapter}{\numberline {4}Implementation of Sensor Network}{25}
-\contentsline {chapter}{\numberline {5}Setting up Cloud Environment}{26}
-\contentsline {chapter}{\numberline {6}Remote Control of Sensor Network}{27}
-\contentsline {chapter}{\numberline {7}Results}{28}
-\contentsline {chapter}{\numberline {8}Discussion}{29}
-\contentsline {chapter}{\numberline {9}Conclusion}{30}
-\contentsline {chapter}{\numberline {10}Future work}{31}
-\contentsline {chapter}{Appendices}{32}
-\contentsline {chapter}{Bibliography}{34}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.1}Criteria for Evaluation}{8}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.2}Amazon Web Services}{8}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.3}Microsoft Azure}{9}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.4}IBM}{9}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.5}Google Cloud Platform}{10}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.6}Salesforce.com}{10}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.7}Oracle}{10}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.8}Rackspace}{10}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Implementation of Sensor Network}{12}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.1}Bluetooth Low Energy communication}{12}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}Setting up Cloud Environment}{14}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.1}DynamoDB}{14}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.2}Web application with AWS Elastic Beanstalk}{15}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.3}AWS IoT}{16}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {6}Remote Control of Sensor Network}{17}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.1}Web application interface}{17}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.2}DynamoDB}{18}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {7}Results}{19}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {8}Discussion}{20}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8.1}Future work}{20}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {9}Conclusion}{21}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Appendices}{24}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {A}Sensor Network}{25}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {B}Code}{27}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {C}Video demonstration}{40}

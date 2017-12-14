@@ -1,15 +1,51 @@
 \chapter{Setting up Cloud Environment}
+This chapter describes how the Amazon Web Services (AWS) environment was set up and which resources in AWS were utilized. The implementation is based on the AWS Documentation \cite{aws_docs}.
 
-AWS iot
-Certification and keys IAM 
-Python - AWSIoTPythinSDK 
-NoSQL DB
-Rule - insert into DB - key for device and timestamp
-Mqtt
-Arcitecture illustartion - AWS IoT --> message queue --> rules --> db --> web interface --> message to Pi
-Elastic Beanstalk for Web applications - login for each user - one device per user - master to see all data
-Elastic Beanstalk uses EC2 and S3
-Elastic Beanstalk, Django Python
-Might be easier to use Amazon RDB, but chose DB because easy to use with IoT
-Python because Raspberry Pi and consistency throughout the project 
-Django admin to create superuser and other users
+
+\section{DynamoDB}
+As previously mentioned, DynamoDB is a NoSQL database. %more on sorting input here?
+ In order to access DynamoDB programmatically, an access key must be configured. The key consists of an access key ID and a secret access key. %where to obtain the keys? 
+The key is used to sign programmatic requests that are made to AWS. The credentials can be configured by running the command \textit{aws configure} and entering the AWS access key. There are three ways of accessing DynamoDB, either through the console, the command line interface or the API. In the API, application code can be written by using the AWS Software Development Kit (SDK). This project uses the AWS SDK, with Python as the programming language. The AWS SDK for Python is Boto, it allows developers to make use of Amazon services when writing software. 
+
+When accessing a Amazon service through the API, the service and the region name must be specified. I.E. \textit{
+dynamodb = boto3.resource('dynamodb', region\textunderscore name='eu-central-1')}. Through the \textit{dynamodb} object, items can now be created or queried in the database. In order to distinguish items from each other, each item has one or more key. The primary key is required, and the additional sort key is optional. When only a partition key is used, there can only be one item for each partition key value. If there are multiple items with the same partition key, the sort key can be used to distinguish the items. 
+
+In this case, each item consists of the device ID, the time stamp of when the item was created and some sensor data.
+The device ID is the primary key and the time stamp is the sort key. This makes it easy to query the database for data from a specific device, and these items are sorted by when they were created.  An item can be queried by using key condition expression. For instance, all the information from one device can be obtained by evaluating the device ID in a key condition expression.
+%key condition expression er tynt
+
+
+%Sorting input - one place for each sensor but also possible as sets or Json documents. 
+
+
+\section{Web application with AWS Elastic Beanstalk}
+AWS Elastic Beanstalk provides the ability to deploy and manages applications without needing to set up the infrastructure which the applications run on. The AWS Elastic Beanstalk service handles things like scaling, capacity provisioning and load balancing automatically. Elastic Beanstalk also requires AWS credentials, like DynamoDB. 
+
+When an Elastic Beanstalk application is created, several resources are enabled to create the environment that runs the application. Among the resources is the launch of an Amazon Elastic Compute Cloud (EC2) instance, a virtual machine which runs the web application on the platform of choice. An Amazon Simple Storage Service (S3) bucket is also create to store the source code and other application files. Load balancing increases availability and scalability of the application Elastic Beanstalk also takes care of monitoring the load and automatically scales underlying resources as needed. Boto is also used as the AWS SDK for Python for AWS Elastic Beanstalk applications.
+
+The AWS Elastic Beanstalk is managed and deployed through a virtual environment running on the Raspberry Pi. The virtual environment is also used to create the application environment. In order for Elastic Beanstalk to correctly replicate the environment, all the packages with the correct versions that run inside the virtual environment are stored in a file called \textit{requirements.txt}. The virtual environment help distinguish which package are needed to run the application. The Python application run behind a Apache proxy server with WSGI. %meir her? many configurations can be done out of scope for this paper
+
+
+This implementation is created using Django, a high-level Python Web framework which makes it easier to create a web application\cite{django}. The Django application is created inside the virtual environment. In order to deploy the Django application to the Elastic Beanstalk environment, it is only needed to run the command \textit{eb deploy} from within the virtual environment. Django enables an easy framework for displaying data with charts from different chart providers through \textit{Graphos} \cite{graphos}.
+
+Elastic Beanstalk is not actually needed to deploy the application. It is also possible to do it simply with a EC2 instance as a server. However, this requires that everything needed to run the application is set up manually, like server instances and installing required software. As mentioned, Elastic Beanstalk takes care of this and additional things like load balancing and automatically scaling resources. This is arguably not needed for such a small application as the one created here, however it could be useful for possible future development %Move last part to result or discussion to compare to smart grid?
+AWS Elastic Beanstalk is a PaaS, where the goal is to separate the application from the platform. AWS EC2 on the other hand is more like a IaaS which enables broader configuration possibilities
+
+ %Elastic Beanstalk also allows the application to be run from VPC to provision a private, isolated section of application. 
+
+
+\section{AWS IoT Core}
+%Billions of devices, route messages to AWS endpoints, connect via mqtt websockets or https. device gateway allows secure, low-latency, bi-directional communication between connected devices and cloud applications. Rules engine process data sent by connected devices. Device shadow enables cloud applications to query data sent from devices and send commands to devices using REST API while IoT Core handles underlying communication. Requires root CA certificate.  Device Shadows, which lets you track data about devices when they are offline and send it back into the system once they are back online. Device Shadows is an optional rule that enables an application to query data from devices and send commands through REST APIs. Device Shadows provide a uniform interface for all devices, regardless of limitations to connectivity, bandwidth, computing ability or power.
+
+
+
+
+%Python - AWSIoTPythonSDK?
+%Mqtt? 
+
+
+
+%\section{Certification and IAM}
+%Certification and keys IAM 
+
+% IAM role to query dybamodb.

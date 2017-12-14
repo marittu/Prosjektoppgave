@@ -1,9 +1,17 @@
 \chapter{Cloud Service Providers}
 There are hundreds of different cloud service providers. Following is a overview of the currently six biggest providers \cite{10biggest} \cite{Forbestop}.
 
+\section{Criteria for Evaluation}
+Suitable to hardware used in project
+Database - NoSQL
+Information availability 
+Overall
+Private cloud availability
+
 \section{Amazon Web Services}
 Amazon Web Services is a cloud computing provider that offers a simple way to access servers, storage, databases and a broad set of application services over the Internet \cite{Amazon}. In total, Amazon provides over 50 different solutions where the main services include  Amazon Elastic Compute Cloud (EC2) for compute, which is virtual servers in the Cloud; S3 for storage, providing scalable storage in the cloud; Aurora which is one of several databases, providing a High Performance Managed Relational Database. Amazon also provides several IoT solutions, for instance AWS IoT Platform, which is \textit{a managed cloud platform that lets connected devices easily and securely interact with cloud applications and other devices}.
 
+%Most existing application containers or platform-as-a-service solutions, while reducing the amount of programming required, significantly diminish developers’ flexibility and control. Developers are forced to live with all the decisions predetermined by the vendor–with little to no opportunity to take back control over various parts of their application’s infrastructure. However, with AWS Elastic Beanstalk, developers retain full control over the AWS resources powering their application. If developers decide they want to manage some (or all) of the elements of their infrastructure, they can do so seamlessly by using Elastic Beanstalk’s management capabilities.
 
 Amazon Virtual Private Cloud VPC lets you provision a logically isolated section of the Amazon Web Services cloud where you can launch AWS resources in a virtual network that you define. \cite{predictive}
 
@@ -18,7 +26,7 @@ Microsoft virtualization solutions go beyond basic virtualization capabilities, 
 \section{IBM}
 Focus on enterprise innovation. 50 global data centers. Keep existing solutions on the private cloud. The Bluemix cloud platform is not just about creating new apps or migrating existing ones, on-prem or off-prem implementations, or offering IaaS and PaaS cloud services. It's designed to bring all of these aspects together to help you solve your real, complex business problems in the cloud \cite{IBM}. Bluemix is a PaaS. IBM offers IaaS, SaaS and PaaS through public, private and hybrid cloud models. SmartCloud Foundation, SmartCloud Services and SmartCloud Solutions. 
 %https://www.engadget.com/2011/06/30/microsoft-european-cloud-data-may-not-be-immune-to-the-patriot/% 
-\enquote{Cloud data stored at European datacenters could still be handed over to American officials, as outlined by US law.}
+\enquote{Cloud data stored at European data centers could still be handed over to American officials, as outlined by US law.}
 
 \section{Google Cloud Platform}
 
@@ -38,206 +46,3 @@ Lowest cost and most automated, as well as the industry's broadest and most inte
 
 \section{Rackspace}
 Reviewing needs and helps build a strong business case. Assessing readiness to move to cloud. Design a reliable, scalable, secure and cost-efficient cloud architecture. Migrate data and apps to the right clouds. Cloud always managed by support. Ongoing enhancement and optimization for cloud. 
-
-\section{Comparison}
-
-\subsection{Azure vs. AWS}
-According to Azure \cite{Azure}, they offer more regions than any other cloud provider, they posses unmatched hybrid capabilities and have the strongest intelligence. 
-\textit{As the leading public cloud platforms, Azure and AWS each offer businesses a broad and deep set of capabilities with global coverage. Yet many organizations choose to use both platforms together for greater choice and flexibility, as well as to spread their risk and dependencies with a multicloud approach. Consulting companies and software vendors might also build on and use both Azure and AWS, as these platforms represent most of the cloud market demand.} Lists a table to compare AWS with Azure.
-
-\subsection{IaaS}
-AWS offers a range of tools that fall under IaaS, they are categorized into four classes: content delivery and storage, compute, networking, and database. They all use Amazon's identity and security services while at the same time have a range of management tools that users can use \cite{stackify}. 
-
-Azure on also has four categorize of offerings, namely: data management and databases, compute, networking, and performance. Also Azure provides costumers with security and management tools. 
-
-\subsection{PaaS}
-AWS does not have as many options or features on the app hosting side. Microsoft has flexed their knowledge of developer tools to have a little bit of an advantage for hosting cloud apps \cite{stackify}.
-
-\subsection{Hybrid Cloud}
-Hybrid clouds are easier with Azure, partly because Microsoft has foreseen the need for hybrid clouds early on.  Azure offers substantial support for hybrid clouds, where you can use your onsite servers to run your applications on the Azure Stack.  You can even set your compute resources to tap cloud-based resources when necessary. This makes moving to the cloud seamless.  Aside from that, several Azure offerings help you maintain and manage hybrid clouds \cite{stackify}.
-
-\subsection{Open Source Developers}
-Amazon shines when it comes to open source developers.  Microsoft has historically been very closed to open source applications, and it turned a lot of companies off.  AWS, on the other hand, welcomed Linux users and offered several integrations for open source apps \cite{stackify}.
-
-\subsection{Features}
-On a per feature basis, you will find that most of all features offered on Azure have a corresponding or similar feature on AWS.  And while it will be quite difficult to come up with an exhaustive features list, you might find it interesting that some Azure services have no AWS equivalent. These include the Azure Visual Studio Online, Azure Site Recovery, Azure Event Hubs, and Azure Scheduler.  However, it seems that AWS is trying to close the gap.  For instance, AWS now offers AWS Lambda on preview to counter Azure’s Logic Apps \cite{stackify}.
-
-
-\section{Feature Comparison}
-
-\subsection{Virtual Private Cloud and Privacy}
-
-\subsubsection{Amazon Web Services}
-Amazon Virtual Private Cloud (VPC): lets you provision a logically isolated section of AWS cloud where you can launch AWS resources in a virtual network that you define. Complete control over virtual network environment, including selection of IP address range, subnets, configuration of rout tables and network gateways. Easy to customize network configuration. Example of usage - public-facing subnet for webservers that has access to the Internet, and place backend systems such as databases in private-facing subnet with no Internet access. By routing traffic through a Network Address Translation (NAT), instances in a private subnet can access the Internet without exposing their private IP address. Traffic to and from instances in VPC can be routed to datacenter over an industry standard, encrypted IPsec hardware VPN connection.  Provides all the same benefits as the rest of the AWS platform. Disaster recovery - periodically backup mission critical data from datacenter to Amazon EC2. 
-
-AWS Direct Connect: Makes it easy to establish a dedicated network connection with private connectivity between AWS and your environment. May reduce network costs, increase bandwidth throughput and provide a more consistent network experience. Connection made to a specific region. Virtual interfaces allows you to access all AWS services or to connect to VPC. 
-
-AWS Identity and Access Management (IAM): Securely control access to AWS services and resources for your users. Create and manage AWS users and groups, and use permissions to allow and deny their access to AWS resources. 
-
-\subsubsection{Microsoft Azure}
-Azure Virtual Network: Private network in the cloud. Logical isolation of the Azure cloud dedicated to your subscription. Secure connections with IPsec VPN or ExpressRout. Granular control over traffic between subnets. Create sophisticated network topologies using virtual appliances. Isolated and highly-secure environment for applications. Traffic between Azure resources in a single region, or in multiple regions, stays in the Azure network - intra-Azure traffic doesn't flow over the Internet. In Azure, traffic for virtual machine-to-virtual machine, storage, and SQL communication only traverses the Azure network. Build hybrid cloud applications that securely connect to your on-premises datacenter. Combine PaaS and IaaS in virtual network to get more flexibility and scalability when building apps, e.g. Azure web roles for front end and virtual machines for backend databases. Each VNet is isolated from other VNests. For each VNet you can: specify a custom private IP address space using public and private addresses; segment the VNet into one or more subnets and allocate a portion of the VNet space to each subnet. Connect VNets to each other, enabling resources connected to either VNet to communicate with each other across VNets. 
-
-ExpressRoute: Private connections to Azure, increased reliability and speed, lower latency, significant cost benefits possible, connects directly to your WAN. Crete Private connections between Azure datacenters and infrastructure on your premises. Connections don't go over the public Internet. Good for scenarios like periodic data migration, replication for business continuity, disaster recovery, adding compute and storage capacity to existing datacenter. Enables hybrid application. 
-
-VPN Gateway: Industry-standard Site-to-Site IPsec VPNs. Secure connections from anywhere. Highly available and easy to manage. 
-
-Azure Security Center: Unified security management and advanced threat protection across hybrid cloud workloads, monitor security across on-premises and cloud workloads, policy to ensure compliance with security standards. Find and fix vulnerabilities before they're exploited. Access and application controls to block malicious activity. Leverage advanced analytics and threat intelligence to detect attacks. Use either built-in security assessments or create own. 
-
-\subsubsection{Google Cloud Platform}
-Virtual Private Cloud: provision your GCP resources, connect them to each other, and isolate them from one another in a Virtual Private Cloud (VPC). You can also define fine-grained networking policies within GCP, and between GCP and on-premise or other public clouds. Includes granular IP address range selection, routes, firewalls, VPN and Cloud Router. Automatic setup of virtual topology. Seamlessly customize VPC's size and connectivity rules. Firewalls to secure VPC network and individual services. Used for secure private hybrid cloud scenarios. Privately access Google's storage, big data, and analytic managed services. Fully virtualized and highly scalable. Grow services without capacity planning constraints or considerations. Dynamic Border Gateway Protocol (BGP) route updates between VPC network and non-Google network with virtual router. Connect existing network to VPC over IPsec. 
-
-Cloud Identity and Access Management: Fine-grained access control and visibility for centrally managing cloud resources. Authorize who can take action of specific resources, full control and visibility to manage cloud resources centrally. Built-in managed identity to easily create or sync user accounts across applications and projects. Single sign-on or multi-factor authentication. 
-
-Cloud Identity-Aware Proxy: controls access to cloud applications running on GCP. Verifies user's identity and determining if user should be allowed to access the application. Secure web access in less time than it takes to implement a VPN. Improve security with Security Key Enforcement. 
-
-Cloud Security Scanner: web security scanner for common vulnerabilities in Google App Engine applications. Automatically scan and detect four common vulnerabilities including cross-site-scripting, Flash injection, mixed content (HTTP in HTTPS), and outdated/insecure libraries. 
-
-Google Security Model: End-to-end process focused on keeping customers safe on Google applications. Physical security in data centers. Server and software stack security. Advanced Encryption Standard (AES-256)  
-
-\subsubsection{IBM Bluemix}
-
-Private cloud: Delivers private cloud infrastructure with the simplicity of a public cloud. Provides the pathway forward to hybrid cloud. Powered by OpenStack and can be delivered through IBM Cloud data centers around the world or on dedicated IBM Cloud infrastructure or locally in customers data center of choice. Fast, scalable, takes advantage of a cloud powered by OpenStack to support hybrid strategy. 
-
-Virtual Private Network (VPN): Provides secure IP-layer connectivity between on-premise data center and IBM Bluemix cloud. Leverages IPsec protocol suite for protecting IP communication between endpoints residing on private subnets. IPsec-compatible VPN gateway is required in customers on-premise data center for establishing secure connectivity with IBM VPN service. 
-
-Identity and access management: help safeguard valuable data and applications with context-based access control, security policy enforcement and business-driven identity governance. Help: safeguard mobile, cloud and social access; prevent advanced insider threats; simplify cloud integrations and identity silos; deliver actionable identity intelligence; administer, enforce and monitor mainframe security. 
-
-\subsubsection{Oracle}
-Infrastructure Virtual Cloud Network: customizable and private network in Oracle Cloud Infrastructure. Provides complete control over network environment, including assigning private IP address space, creating subnets, rout tables and configuring stateful firewalls. Can have multiple VCN, providing grouping and isolation of related resources. 
-
-Security Monitoring and Analytics: enables rapid detection, investigation and remediation of the broadest range of security threats across on-premises and cloud IT assets. 
-
-\subsubsection{Rackspace}
-Private Cloud: Agility, scalability and efficiency of public cloud, with greater levels of control and security of a single-tenant, dedicated environment. Can be hosted on-site at customers data center or at a service provider's data center. Delivers features faster by providing your users with on-demand, self-service access to infrastructure. Get enhanced security if dedicated compute, storage and networking components to best suit needs. Gain performance advantages over public cloud, with dedicated resources. Experts monitoring and maintaining health of private cloud 24x7x365. Connect dedicated Rackspace environment to public clouds like AWS, Azure or Rackspace cloud. 
-
-Privacy and Data Protection: protect sensitive business data and help meet compliance requirements related to data storage and protection. Helps asses risk, create custom policies to encrypt and restrict access to sensitive data. Provides encryption on top of existing applications and workflows, resulting in minimal impact to users. Allow users access to only data they need with granular access policies.   
-
-\subsection{Database}
-
-\subsubsection{Amazon Web Services}
-Aurora: High performance, highly secure - network isolation using Amazon VPC, compatible with MySQL. Highly scalable - storage from 10Gb to 64Tb. High availability and durability - fault-tolerant, self-healing. Six copies of data replicated across three availability zones and continuously backed up to Amazon S3. Fully managed - hardware provisioning, software patching, configuration, monitoring and backups done automatically. 
-
-Amazon Relational Database Service (RDS):  Easy to administer, highly scalable, available and durable  Relational database - collection of data items with predefined relationships between them. The rows in the table represent a collection of related values of one object or entity. Fast, secure and inexpensive. Choice of six popular database engines. 
-
-Amazon DynamoDB: NoSQL database, minimal latency, supports both document and key-value store models. Flexible data model, reliable performance and automatic scaling of throughput capacity - great fit for applications such as IoT. Highly scalable. Fully managed - simply create a database table, set target utilization for Auto Scaling and the service handles the rest. Fine-grained Access control - assign unique security credentials to each user and control each user's access to services and resources. Event driven programing with Lambda. Amazon DynamoDB Accelerator (DAX) uses in-memory cache to deliver 10x performance improvements. 
-
-Amazon ElasticCache: A web service that makes it easy to deploy, operate and scale an in-memory data store or cache on the cloud. Sub-milliseconds latency. Automatically detects and replaces failed nodes. Extreme performance, secure and hardened - monitors nodes and applies necessary patches to keep environment secure, easily scalable, highly available and reliable, fully managed
-
-AWS Database Migration Services: Migrate databases to AWS quickly and securely, source database remains fully operational during migration. 
-
-
-\subsubsection{Microsoft Azure}
-
-SQL Database: General-purpose relational database service. scales automatically with minimal downtime, maximize resource utilization and manage thousands of databases as one while ensuring one-customer-per-database with elastic pools. Advanced security options. Automatic backups, point-in-time restores, active geo-replication, fail-over groups. Several different tools to manage and develop in SQL database, like visual studio, SQL server management studio or build own applications with Python, Java etc. Dynamically mask sensitive data and encrypt it at rest and in motion. 
-
-Azure Database for SQL: for app development. High availability, security and recovery. Focus in apps, not infrastructure. Scale with no application downtime. Relational database based on open source MySQL. Predictable performance and dynamic scalability. 
-
-Azure Database for PostgreSQL: Same as above, but Postgres database engine instead of MySQL.
-
-SQL Data Warehouse: Fully managed petabyte-scale cloud data warehouse
-
-Azure Cosmos DB: globally distributed, multi-model database service. Milliseconds latency. Key-value, graph and document data in one service. Elastic scale and only pay for throughput and storage you need. Industry-leading SLA for high availability, latency, guaranteed throughput and consistency. Can build mission-critical applications, IoT, personalization. Distribute data to any number of Azure regions - enables you to put data where users are. Three times cheaper than Amazon DynamoDB. 
-
-Table storage: NoSQL key-value store for rapid development using massive semi-structured datasets. Part of Cosmos DB. 
-
-Azure Redis Cache: High throughput and consistent low-latency data access to power fast, scalable Azure applications. Fully managed, high performance, highly secure. More responsive application, even with increased customer load. Key-value store, where keys can contain data structures such as strings, hashes, lists, sets and sorted sets. 
-
-\subsubsection{Google Cloud Platform}
-
-Cloud SQL: Fully-managed database service that makes it easy to set up, maintain, manage and administer relational PostgreSQL (beta) and MySQL database in the cloud. High performance, scalability and convenience. Database infrastructure for applications running anywhere. Automates all backups, replication, patches and updates. 99.95\% availability anywhere in the world. Automatically encrypted data. Per-minute billing, no up-front commitment. Cloud SQL instances are accessible from just about any application anywhere. Ideal for online transaction processing (OLTP). 
-
-Cloud Bigtable: NoSQL Big Data database service. Powers Google services like Maps, Search and Gmail. Designed to handle massive workloads at consistent low latency and high throughput. Great choice for both operational and analytic applications, including IoT and user analytics. Can be used as a large-scale storage engine as well as throughput-intensive data processing and analytics. Supports the open-source, industry-standard HBase API. All data encrypted. Millisecond latency. Fully managed (automatic scaling, configuring and tuning). Redundant internal storage strategy for high durability, only pay for the amount of storage you are using. Dynamically add cluster nodes without restarting, automatically re-balancing data. Available regions around the world, place service and data exactly where you want it. Cloud Bigtable is ideal for applications that need very high throughput and scalability for non-structured key/value data, where each value is typically no larger than 10 MB. Ideal for IoT data such as usage reports from energy meters and home appliances. Not a relational database, does not support SQL queries nor multi-row transaction. Not a good solution for less than 1 TB of data. 
-
-Cloud Spanner: Horizontally scalable, strongly consistent, relational database service. First fully managed relational database to offer strong consistency and horizontal scalability for OLTP applications. Scales horizontally to hundreds or thousands of servers to handle the biggest transactional workloads. Milliseconds latency and transactional consistency up to 99.999 \% availability. Focus on application, not infrastructure, fully managed, synchronous replication. Encryption by default in transit and at rest. Multi-language support. Suitable for retailers, manufacturers and distributors. Performance and scalability of NoSQL, but can execute SQL. 
-
-Cloud Datastore: highly scalable NoSQL database. Automatically handles sharding and replication - highly available and durable database that scales automatically. Schemaless database, possible to make changes to underlying data structure. Provides a powerful query engine that allows you to search for data across multiple properties and sort as needed. Suitable for product catalogs that provide real-time inventory, user profiles based on past activities and preferences, ACID based transaction (transferring funds from bank accounts).
-
-
-\subsubsection{IBM Bluemix}
-Cloudant NoSQL DB: fully managed NoSQL JSON data layer. Document-oriented database. Stores data as documents in JSON format. Compatible with Couch DB and accessible through HTTP interface. Documents can be stored, deleted or retrieved individually or in bulk. Automatic provisioning, management, and scalability of the data store. Easy to conduct advanced analytics on JSON data with dashDB. Global availability. 
-
-Db2 on Cloud: fully-managed cloud SQL database. OLTP performance. 99.95 \% uptime. Daily backups, at-rest database encryption. Deploys in a few clicks. Import data as excel spreadsheets, CSVs or files on cloud storage. Organize by row or column. Dozens of locations.  
-
-Compose: an IBM company. Offers several database alternatives like MongoDB, Redis, PostgreSQL, MySQL, Elasticserach, ScyllaDB, RabbitMQ, etcd, RethingDB. Every compose database deploys production ready. Built-in reliability, auto-scaling, one-click deployments. Deploy around the world (including AWS and Google Cloud Platform data centers). Application databases include MongoDB, MySQL, PostgreSQL, RethinkDB. Specialized databases for massive scale or graphing relationships between data objects: ScyllaDB, JanusGraph, Elasticsearch. Messaging and queueing platforms include Redis and RabbitMQ. Etcd is a key/value database. 
-
-MongoDB: powerful indexing and query, aggregation and wide driver support. Auto-scaling deployment system which delivers high availability and redundancy, automated no-stop backups and much more. 
-
-MySQL: Easy, auto-scaling deployment system, high availability, redundancy, automated no-stop backups. Support JSON datasets. 
-
-PostgreSQL: Powerful, open source, object-relational database which is highly customizable; with JSON support it's the best of both the SQL and NoSQL worlds. 
-
-RethingDB: Document-based, distributed database with an admin console which lets you browse the data, configure the cluster and inspect its performance. 
-
-ScyllaDB: Hyper-fast, 1; transactions sec/node. 
-
-JanusGraph: scalable graph database optimized for storing and querying highly-interconnected data modeled as vertices and edges across a multi-machine cluster. 
-
-Elasticsearch: Combines the power of a full-text search engine with the indexing strength of a JSON document database for rich data analysis on large volumes of data. 
-
-Redis: Open-source, blazingly fast, key/Value store. Tuned for high-availability and locked down with additional security features. 
-
-RabbitMQ: Route, track, and queue messages between apps and databases. Customize persistence levels, delivery settings, and publish confirmations. 
-
-etcd: key/value store. RAFT consensus algorithm to assure data consistency in cluster. Fully managed - easy, auto-scaling deployment system, high availability and redundancy, automated no-stop backups.  
-
-\subsubsection{Oracle}
-Database as platform: Enterprise-prove database cloud service that supports any size workload from dev/test to large scale production deployment. Multi-layered, in depth security with encryption by default. Highly available and scalable service delivering speed, simplicity and flexibility for faster time to value savings. Add capacity on-demand and scale OLTP and Data Warehouse workloads as business grows. Control scaling storage and compute scaling through web console or REST API. 
-
-Oracle Database Cloud Service: General purpose and high memory compute shapes to provide the full power of the Oracle Database in the cloud for any type of application. Standard network connection. Administrative control via SSH, SQL Developer. Data Pump etc. IPsec VPN option for secure access. 
-
-Oracle Database Cloud Service - bare metal: dedicated bare metal servers you control. No noisy neighbors to impact predictability and performance. Real Application Clusters (RAC) provides system redundancy, scalability and availability. Scaling instances at the click of a button or through REST APIs. Encryption at rest. Deploy into a secure and private virtual cloud network that has no access to the Internet unless you enable it. Backup options on highly durable, available, and regional Oracle Cloud Infrastructure Object STorage or Block Volumes. 
-
-Oracle Exadata Cloud Service: optimized for performance, running in the same networks as your virtual machines and bare metal instances. Supports Oracle RAC for highly available databases. Up to 336 cores and 8 nodes, with high memory and storage capacity and unlimited I/Os. 
-
-Oracle Database Exadata Cloud Machine: delivers the world's most advanced database cloud to customers who require their databases to be located on-premises. Identical to the public cloud service, but located in customers' own data centers and managed by Oracle Cloud Experts. 
-
-\subsubsection{Rackspace}
-Run on either dedicated hardware or cloud servers. Rackspaces' experts can handle routine operations and maintenance, deployment, management and scaling. Both NoSQL and MySQL. Solution can be customized by adding security, virtualization, storage, database backup, monitoring and professional services. Multi-cloud flexibility with AWS and Azure. Higher performance, greater control and increased security with dedicated hosting.  
-
-MySQL Databases: Support for customers include installation, configuration assistance, troubleshooting assistance, database backup agent, advice and consultation. 
-
-DBAdministartor: Rackspace handles basic activities, like standard maintenance and troubleshooting associated with keeping the database platform performing as designed.
-
-DBArchitect: In addition to DBA services, advanced design, architecture and planning services are available to help ensure databases are at peak performance and efficiency. 
-
-
-\subsection{IoT}
-
-\subsubsection{Amazon Web Services}
-AWS IoT: Provides secure, bi-directional communication between Internet-connected thing, such as sensors, actuators, embedded devices, or smart appliances, and the AWS cloud. Collect telemetry data from multiple devices and store and analyze the data. Create applications that enable your users to control these devices from their phones or tablets. 
-
-Device gateway: secure and efficient communication between devices and AWS IoT.
-Message broker: Secure messaging between \enquote{things} and AWS IoT applications.
-Rules engine: message processing and integration with other AWS services. 
-Security and Identity service: Keep credentials safe in order to securely send data to message broker. 
-Thing registry: Organizes resources associated with each thing. 
-Thing shadow: JSON document used to store and retrieve current state information for a thing.
-Thing Shadow service: provides persistent representation of things in the AWS cloud. 
-
-Integrates directly with S3 (scalable storage), DynamoDB, Kinesis (realtime processing of streaming dat at massive scale), Lambda (runs code on virtual servers from EC2 in response to events), Simple Notification Service (send or receive notifications), Simple Queue Service (stores data in a queue to be retrieved by applications). 
-
-\subsubsection{Microsoft Azure}
-IoT Hub: Bi-directional communication with billions of IoT devices. Device-to-cloud telemetry data to understand state of device and assets. Reliably send commands and notifications to connected devices using cloud-to-device messages. Authenticate per device for security-enhanced IoT solutions. 
-
-IoT Edge: Make hybrid cloud and edge IoT solutions. Devices can act locally based on the data they generate, also take advantage of the clout to configure, deploy and manage them securely and at scale. Focus on advanced analytics, machine learning and artificial intelligence in the cloud. Process data locally and selectively send to cloud to reduce cost. 
-
-\subsubsection{Google Cloud Platform}
-Cloud IoT core: Fully managed service to easily and securely connect, manage and ingest data from globally dispersed devices. In combination with other services on Google Cloud IoT platform, provides a complete solution form collecting, processing, analyzing and visualizing IoT data in real time to support improved operational efficiency. Establish two-way communication.
-
-\subsubsection{Google Firebase}
-Firebase is Google's mobile application development platform. It provides functions like analytics, databases, messaging and crash reports. Built on Google infrastructure and scales automatically. Multiple Firebase products work together by sharing data. Utilizes products like realtime database for storing and syncing app data in milliseconds, CLoud Firestore for storing and syncing app data at global scale, Cloud Functions for running backend code without managing servers, hosting for delivering web app assets with speed and security, performance monitoring, crash reporting, authentication, cloud storage. Firebase projects are backed by Google Cloud Platform, making it easy to scale apps to billions of users. 
-
-\subsubsection{IBM Bluemix}
-IoT for Electronics: Integrated end-to-end solution enables your apps to communicate with, control, analyze, and update connected electronics. Analyze operational machine data instantly to help identify valuable insight related to user behavior and operations in the field. 
-
-\subsubsection{Oracle}
-Internet of Things Cloud Service: managed PaaS cloud-based offering that helps you make critical business decisions and strategies by allowing you to connect your devices to the cloud, analyze data from those devices in real time, and integrate your data with enterprise applications, web services, or other Oracle Cloud Services.  
-
-\subsubsection{Rackspace}
-Rackspace does not provide any solutions or products for developing an Internet of Things related service. 
-
-
-\subsection{Web Development}
-
-
-\section{Comparison Conclusion}

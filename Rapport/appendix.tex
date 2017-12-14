@@ -1,0 +1,31 @@
+\chapter{Sensor Network}
+
+A Raspberry Pi is used as the interface for all communication with the AWS cloud. It is connected to 3 Thunderboard Sense via BLE. The Raspberry Pi uses Bluepy, a python implementation of BlueZ, which is BLE interface for Linux based devices \cite{bluepy}. Bluepy contains an easy interface for scanning for and connecting to peripheral devices, as well as reading GATT data. 
+
+A Thunderboard Sense is a multi-sensor and multi-protocol development board from Silicon Labs, based on the EFR32 Mighty Gecko Wireless System-on-chip \cite{TBs}. It contains 8 sensors, including temperature, relative humidity, pressure, and UV index. The Thunderboard Sense also consists of 4 RGB LEDs. It is compatible with BLE. Each device has a unique ID, which is utilized in this project.  
+
+The implementation of the reading of sensor data is based on this tutorial from Silicon Labs \cite{TBScan}. Each of the Thunderboard Sense have a GATT profile with Environment Sensing as a service. The service includes characteristics for all the sensors implemented on the board. For this project only the temperature, relative humidity, sound, and ambient light sensors are utilized. The Thunderboard Sense is the peripheral device and starts broadcasting its presence. The Raspberry Pi, the central device, initiates a connection when it observes the broadcast message. When the Raspberry Pi scans for services, it discovers the Environment Sense service, and can iterate through it to find the characteristics. The Raspberry Pi requests attribute data for a given characteristic from the Thunderboard Sense, which in turn transmits its GATT profile back to the Raspberry Pi. 
+
+The remote control of the sensor network is realized by the central writing characteristics and sending it to the peripheral. As a way to demonstrate functionality, the characteristic that is set is the RGB LEDs. One of two different values is set, on or off, depending on the user input from the web application. The Raspberry Pi reads the status of the RGB LED for each device from the LED Status database and writes the characteristic accordingly. The RGB LED characteristic consists of 4 bytes, where the first byte determines which of the 4 RGB LEDs should be active, and the remaining byte determines the red, green and blue color intensity, respectively. 
+
+\chapter{Code}
+Following is the source code created in this project. 
+
+tbsense.py
+\lstinputlisting[language=Python]{Code/tbsense.py}
+tbsense\textunderscore scan.py
+\lstinputlisting[language=Python]{Code/tbsense_scan.py}
+post\textunderscore db.py
+\lstinputlisting[language=Python]{Code/post_db.py}
+get\textunderscore leds.py
+\lstinputlisting[language=Python]{Code/get_leds.py}
+views.py
+\lstinputlisting[language=Python]{Code/views.py}
+rgbled\textunderscore db.py
+\lstinputlisting[language=Python]{Code/rgbled_db.py}
+index.html
+\lstinputlisting[language=HTML]{Code/index.html}
+
+\chapter{Video demonstration}
+A demonstration of the remote control of the RGB LEDs can be found on ...
+
